@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { useChallengeStore, type Challenge } from "~/stores/challenge";
+import { useChallengeStore } from "~/stores/challenge";
+import type { Challenge } from "~/types/challenge";
 import { useUserStore } from "~/stores/user";
 
 const store = useChallengeStore();

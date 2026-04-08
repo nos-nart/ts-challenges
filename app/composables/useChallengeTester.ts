@@ -40,20 +40,24 @@ export function useChallengeTester() {
 
     const allDiagnostics = [...syntactic, ...semantic]
     
-    const errors = allDiagnostics.map(diag => {
-      // Convert offset to line number for better UX
-      const pos = testModel!.getPositionAt(diag.start!)
-      const message = typeof diag.messageText === 'string' 
-        ? diag.messageText 
-        : diag.messageText.messageText // Handle diagnostic chains
-      
-      return `Line ${pos.lineNumber}: ${message}`
-    })
+    const errors = allDiagnostics.map((diag) => {
+      const pos = testModel!.getPositionAt(diag.start!);
+      const message =
+        typeof diag.messageText === "string"
+          ? diag.messageText
+          : diag.messageText.messageText;
+
+      return `Line ${pos.lineNumber}: ${message}`;
+    });
+
+    // --- FIX: Immediately dispose the model to prevent "Duplicate Identifier" errors in the main editor ---
+    testModel.dispose();
 
     results.value = {
       passed: errors.length === 0,
       errors,
-    }
+    };
+
 
     return results.value
   }

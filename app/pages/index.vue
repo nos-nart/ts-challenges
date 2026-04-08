@@ -290,17 +290,17 @@ const resultsHeightInit = computed(() =>
                           :items="[
                             {
                               label: 'Challenge',
-                              icon: 'i-solar-document-text-bold-duotone',
+                              icon: 'i-solar-dumbbell-large-minimalistic-bold-duotone',
                               slot: 'readme',
                             },
                             {
                               label: 'Hint',
-                              icon: 'i-solar-lightbulb-bold-duotone',
+                              icon: 'i-solar-lightbulb-bolt-bold-duotone',
                               slot: 'hint',
                             },
                             {
                               label: 'Learn',
-                              icon: 'i-solar-course-up-bold-duotone',
+                              icon: 'i-solar-book-bookmark-bold-duotone',
                               slot: 'learn',
                             },
                           ]"
