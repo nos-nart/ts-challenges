@@ -27,20 +27,35 @@ export function useChallengeTester() {
       testModel = monaco.editor.createModel(combinedCode, 'typescript', testUri)
     }
 
-    return new Promise<{ passed: boolean, errors: string[] }>((resolve) => {
-      setTimeout(() => {
-        const markers = monaco.editor.getModelMarkers({ resource: testUri })
-        const errors = markers
-          .filter(m => m.severity === monaco.MarkerSeverity.Error)
-          .map(m => `Line ${m.startLineNumber}: ${m.message}`)
+    // Definitive way to get diagnostics from the TS Worker
+    const ts = monaco.languages.typescript as any
+    const getWorker = await ts.getTypeScriptWorker()
+    const worker = await getWorker(testUri)
+    
+    // Get both syntax and semantic errors (Expect/Equal failures)
+    const [syntactic, semantic] = await Promise.all([
+      worker.getSyntacticDiagnostics(testUri.toString()),
+      worker.getSemanticDiagnostics(testUri.toString())
+    ])
 
-        results.value = {
-          passed: errors.length === 0,
-          errors,
-        }
-        resolve(results.value)
-      }, 500)
+    const allDiagnostics = [...syntactic, ...semantic]
+    
+    const errors = allDiagnostics.map(diag => {
+      // Convert offset to line number for better UX
+      const pos = testModel!.getPositionAt(diag.start!)
+      const message = typeof diag.messageText === 'string' 
+        ? diag.messageText 
+        : diag.messageText.messageText // Handle diagnostic chains
+      
+      return `Line ${pos.lineNumber}: ${message}`
     })
+
+    results.value = {
+      passed: errors.length === 0,
+      errors,
+    }
+
+    return results.value
   }
 
   function reset() {

@@ -12,6 +12,8 @@ export default defineNuxtConfig({
 
   ssr: false,
 
+  sourcemap: false,
+
   devtools: {
     enabled: true,
   },

@@ -2,16 +2,30 @@
 import { Splitpanes, Pane } from "splitpanes";
 import { useChallengeStore } from "~/stores/challenge";
 import { useUiStore } from "~/stores/ui";
+import { useUserStore } from "~/stores/user";
 import { useMounted } from "@vueuse/core";
 
 const store = useChallengeStore();
 const ui = useUiStore();
+const user = useUserStore();
 const code = ref("");
 
+// Auto-save code as user types
+watch(code, (newCode) => {
+  if (store.currentChallenge && newCode) {
+    user.saveSolution(store.currentChallenge.name, newCode);
+  }
+});
+
+// Restore solution or template when challenge changes
 watch(
-  () => store.currentChallenge?.template,
-  (val) => {
-    if (val) code.value = val;
+  () => store.currentChallenge,
+  (newChallenge) => {
+    if (newChallenge) {
+      const saved = user.getSolution(newChallenge.name);
+      code.value = saved || newChallenge.template || "";
+      resetResults();
+    }
   },
 );
 
@@ -50,10 +64,7 @@ onMounted(() => {
 });
 
 const handleVersionChange = (version: any) => {
-  // 1. Update the store/cookie immediately so it's correct on next load
   ui.tsVersion = version.value;
-
-  // 2. Prepare the new URL
   const url = new URL(window.location.href);
   const defaultVersion = ui.supportedTsVersions?.[0]?.value;
 
@@ -62,8 +73,6 @@ const handleVersionChange = (version: any) => {
   } else {
     url.searchParams.set("v", version.value);
   }
-
-  // 3. Hard reload to swap the Monaco worker engine
   window.location.href = url.toString();
 };
 
@@ -92,22 +101,12 @@ const formatCode = () => {
   editorRef.value?.format();
 };
 
-// Clear results when challenge changes
-watch(
-  () => store.currentChallenge?.name,
-  () => {
-    resetResults();
-  },
-);
-
 const handleSubmit = async () => {
   if (!store.currentChallenge) return;
 
   const normalizedCode = code.value.trim();
   const normalizedTemplate = store.currentChallenge.template?.trim();
 
-  // 1. Prevent submitting without changes
-  // We compare the trimmed code to the original template to ensure the user actually tried something.
   if (normalizedCode === normalizedTemplate) {
     toast.add({
       title: "No changes detected",
@@ -121,6 +120,10 @@ const handleSubmit = async () => {
     code.value,
     store.currentChallenge.tests || "",
   );
+
+  // Save progress
+  user.updateProgress(store.currentChallenge.name, res.passed ? 'passed' : 'failed');
+
   if (res.passed) {
     toast.add({
       title: "Challenge Completed!",
@@ -223,12 +226,12 @@ const resultsHeightInit = computed(() =>
           @update:model-value="handleVersionChange"
         >
           <template #leading>
-            <UIcon name="i-lucide-binary" class="w-4 h-4 opacity-50" />
+            <UIcon name="i-solar-code-2-bold-duotone" class="w-4 h-4 opacity-50" />
           </template>
         </USelectMenu>
 
         <UButton
-          :icon="isDark ? 'i-lucide-sun' : 'i-lucide-moon'"
+          :icon="isDark ? 'i-solar-sun-2-bold-duotone' : 'i-solar-moon-bold-duotone'"
           color="neutral"
           variant="ghost"
           size="sm"
@@ -287,17 +290,17 @@ const resultsHeightInit = computed(() =>
                           :items="[
                             {
                               label: 'Challenge',
-                              icon: 'i-lucide-scroll-text',
+                              icon: 'i-solar-document-text-bold-duotone',
                               slot: 'readme',
                             },
                             {
                               label: 'Hint',
-                              icon: 'i-lucide-lightbulb',
+                              icon: 'i-solar-lightbulb-bold-duotone',
                               slot: 'hint',
                             },
                             {
                               label: 'Learn',
-                              icon: 'i-lucide-graduation-cap',
+                              icon: 'i-solar-course-up-bold-duotone',
                               slot: 'learn',
                             },
                           ]"
@@ -311,25 +314,11 @@ const resultsHeightInit = computed(() =>
                             <div
                               class="prose dark:prose-invert max-w-none prose-sm challenge-readme"
                             >
-                              <div
-                                class="flex items-center gap-2 mb-4 not-prose"
-                              >
-                                <LazyUBadge
-                                  :label="store.currentChallenge.difficulty"
-                                  color="neutral"
-                                  variant="solid"
-                                  size="xs"
-                                />
-                              </div>
-                              <AppSkeleton :loading="store.detailsLoading">
-                                <LazyMDC
-                                  :value="
-                                    store.detailsLoading
-                                      ? '# Loading Challenge\n\nThis is a placeholder for the challenge description. It is used to generate the skeleton shimmer effect automatically without manual sizing.'
-                                      : store.currentChallenge.readme || ''
-                                  "
-                                />
-                              </AppSkeleton>
+                              <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+                              <LazyMDC
+                                v-else
+                                :value="store.currentChallenge.readme || ''"
+                              />
                             </div>
                           </template>
 
@@ -339,20 +328,16 @@ const resultsHeightInit = computed(() =>
                             >
                               <h3 class="flex items-center gap-2">
                                 <UIcon
-                                  name="i-lucide-sparkles"
+                                  name="i-solar-stars-bold-duotone"
                                   class="text-primary w-5 h-5"
                                 />
                                 Helpful Hints
                               </h3>
-                              <AppSkeleton :loading="store.detailsLoading">
-                                <LazyMDC
-                                  :value="
-                                    store.detailsLoading
-                                      ? '- Loading Hint...\n- Please wait while we find some helpful tips for this challenge.'
-                                      : store.currentChallenge.hint || ''
-                                  "
-                                />
-                              </AppSkeleton>
+                              <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+                              <LazyMDC
+                                v-else
+                                :value="store.currentChallenge.hint || ''"
+                              />
                             </div>
                           </template>
 
@@ -360,57 +345,56 @@ const resultsHeightInit = computed(() =>
                             <div
                               class="prose dark:prose-invert max-w-none prose-sm challenge-readme"
                             >
-                              <AppSkeleton :loading="store.detailsLoading">
-                                <template v-if="store.activeConcepts.length">
-                                  <div
-                                    v-for="(
-                                      concept, index
-                                    ) in store.activeConcepts"
-                                    :key="concept?.id"
-                                  >
-                                    <template v-if="concept">
-                                      <div class="flex items-center gap-2 mb-4">
-                                        <UIcon
-                                          name="i-lucide-lightbulb"
-                                          class="text-primary w-5 h-5"
-                                        />
-                                        <h2 class="m-0!">
-                                          {{ concept.title }}
-                                        </h2>
-                                      </div>
-
-                                      <LazyMDC :value="concept.content" />
-
-                                      <LazyUSeparator
-                                        v-if="
-                                          index <
-                                          store.activeConcepts.length - 1
-                                        "
-                                        class="my-12"
-                                      />
-                                    </template>
-                                  </div>
-                                </template>
+                              <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+                              <template v-else-if="store.activeConcepts.length">
                                 <div
-                                  v-else-if="!store.detailsLoading"
-                                  class="flex flex-col items-center justify-center py-10 opacity-50"
+                                  v-for="(
+                                    concept, index
+                                  ) in store.activeConcepts"
+                                  :key="concept?.id"
                                 >
-                                  <UIcon
-                                    name="i-lucide-library"
-                                    class="w-10 h-10 mb-2"
-                                  />
-                                  <p>
-                                    No specific concept notes for this challenge
-                                    yet.
-                                  </p>
-                                  <UButton
-                                    to="https://www.typescriptlang.org/docs/handbook/intro.html"
-                                    variant="link"
-                                    label="Browse TS Handbook"
-                                    target="_blank"
-                                  />
+                                  <template v-if="concept">
+                                    <div class="flex items-center gap-2 mb-4">
+                                      <UIcon
+                                        name="i-solar-lightbulb-bold-duotone"
+                                        class="text-primary w-5 h-5"
+                                      />
+                                      <h2 class="m-0!">
+                                        {{ concept.title }}
+                                      </h2>
+                                    </div>
+
+                                    <LazyMDC :value="concept.content" />
+
+                                    <LazyUSeparator
+                                      v-if="
+                                        index <
+                                        store.activeConcepts.length - 1
+                                      "
+                                      class="my-12"
+                                    />
+                                  </template>
                                 </div>
-                              </AppSkeleton>
+                              </template>
+                              <div
+                                v-else-if="!store.detailsLoading"
+                                class="flex flex-col items-center justify-center py-10 opacity-50"
+                               >
+                                <UIcon
+                                  name="i-solar-library-bold-duotone"
+                                  class="w-10 h-10 mb-2"
+                                />
+                                <p>
+                                  No specific concept notes for this challenge
+                                  yet.
+                                </p>
+                                <UButton
+                                  to="https://www.typescriptlang.org/docs/handbook/intro.html"
+                                  variant="link"
+                                  label="Browse TS Handbook"
+                                  target="_blank"
+                                />
+                              </div>
                             </div>
                           </template>
                         </LazyUTabs>
@@ -420,7 +404,7 @@ const resultsHeightInit = computed(() =>
                         class="flex flex-col items-center justify-center h-full text-gray-400"
                       >
                         <UIcon
-                          name="i-lucide-code-2"
+                          name="i-solar-code-bold-duotone"
                           class="w-10 h-10 mb-4 opacity-20"
                         />
                         <p>Select a challenge to begin</p>
@@ -457,7 +441,7 @@ const resultsHeightInit = computed(() =>
                         class="absolute bottom-4 right-6 flex items-center gap-2 z-10"
                       >
                         <UButton
-                          icon="i-lucide-sparkles"
+                          icon="i-solar-stars-bold-duotone"
                           label="Prettify"
                           variant="subtle"
                           color="neutral"
@@ -468,7 +452,7 @@ const resultsHeightInit = computed(() =>
                         <UButton
                           label="Submit"
                           color="primary"
-                          icon="i-lucide-check-circle"
+                          icon="i-solar-check-circle-bold-duotone"
                           size="xs"
                           class="font-bold shadow-md"
                           @click="handleSubmit"
@@ -529,7 +513,7 @@ const resultsHeightInit = computed(() =>
                       v-else-if="results.passed && store.currentChallenge"
                       class="p-4 flex items-center gap-2 text-green-600 dark:text-green-400 bg-green-50/50 dark:bg-green-950/10 border-b border-green-100 dark:border-green-900/20 shrink-0"
                     >
-                      <UIcon name="i-lucide-check-circle" class="w-4 h-4" />
+                      <UIcon name="i-solar-check-circle-bold-duotone" class="w-4 h-4" />
                       <span class="text-xs font-bold uppercase"
                         >All tests passed!</span
                       >
@@ -562,7 +546,7 @@ const resultsHeightInit = computed(() =>
         <template #placeholder>
           <div class="h-full w-full flex items-center justify-center">
             <UIcon
-              name="i-lucide-loader-2"
+              name="i-solar-restart-bold-duotone"
               class="w-10 h-10 animate-spin opacity-20"
             />
           </div>

@@ -37,7 +37,7 @@
     <UButton
       label="Starter"
       variant="subtle"
-      trailing-icon="i-lucide-chevron-down"
+      trailing-icon="i-solar-alt-arrow-down-bold-duotone"
       size="xs"
       class="-mb-[6px] font-semibold rounded-full truncate"
       :class="[open && 'bg-primary/15']"
