@@ -1,0 +1,40 @@
+{
+  "name": "ts-challenges",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.100",
+    "@iconify-json/simple-icons": "^1.2.75",
+    "@nuxt/a11y": "1.0.0-alpha.1",
+    "@nuxt/hints": "1.0.3",
+    "@nuxt/scripts": "0.13.2",
+    "@nuxt/ui": "^4.6.0",
+    "@pinia/nuxt": "0.11.3",
+    "@shikijs/monaco": "^4.0.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "@vueuse/core": "^14.2.1",
+    "@wasm-fmt/oxc_fmt": "^0.2.8",
+    "monaco-editor": "^0.55.1",
+    "nuxt": "^4.4.2",
+    "pinia": "^3.0.4",
+    "shiki": "^4.0.2",
+    "splitpanes": "^4.0.4",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "@nuxtjs/mdc": "^0.21.1",
+    "eslint": "^10.1.0",
+    "typescript": "^6.0.2",
+    "vue-tsc": "^3.2.6"
+  },
+  "packageManager": "pnpm@10.33.0"
+}

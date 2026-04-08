@@ -1,0 +1,226 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@plugin "@tailwindcss/typography";
+
+@theme static {
+  --font-sans: "Public Sans", sans-serif;
+  --font-mono: "SF Mono", ui-monospace, monospace;
+
+  --color-green-50: #effdf5;
+  --color-green-100: #d9fbe8;
+  --color-green-200: #b3f5d1;
+  --color-green-300: #75edae;
+  --color-green-400: #00dc82;
+  --color-green-500: #00c16a;
+  --color-green-600: #00a155;
+  --color-green-700: #007f45;
+  --color-green-800: #016538;
+  --color-green-900: #0a5331;
+  --color-green-950: #052e16;
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  --animate-blink: blink 1s step-end infinite;
+}
+
+@import "splitpanes/dist/splitpanes.css";
+
+html,
+body,
+#__nuxt {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  @apply bg-white dark:bg-black text-gray-900 dark:text-gray-100 font-sans;
+}
+
+.splitpanes.default-theme .splitpanes__splitter {
+  @apply bg-transparent! border-none! relative! transition-colors duration-200 z-10;
+}
+
+.splitpanes.default-theme .splitpanes__splitter:hover {
+  @apply bg-gray-400/10!;
+}
+
+.splitpanes--vertical > .splitpanes__splitter {
+  @apply w-4! -mx-2! cursor-col-resize;
+}
+
+.splitpanes--vertical > .splitpanes__splitter:after,
+.splitpanes--vertical > .splitpanes__splitter:before,
+.splitpanes--horizontal > .splitpanes__splitter:after,
+.splitpanes--horizontal > .splitpanes__splitter:before {
+  @apply hidden;
+}
+
+.splitpanes--horizontal > .splitpanes__splitter {
+  @apply h-4! -my-2! cursor-row-resize!;
+}
+
+.splitpanes.default-theme .splitpanes__pane {
+  @apply bg-transparent!;
+}
+
+.splitpanes.disabled > .splitpanes__splitter {
+  @apply cursor-default! pointer-events-none;
+}
+
+/* Challenge Readme / Markdown Styling */
+.challenge-readme {
+  @apply prose-headings:font-black prose-headings:tracking-tight prose-p:leading-relaxed;
+}
+
+/* Fix for big badges/images in markdown */
+.challenge-readme img {
+  @apply inline-block my-0 max-w-fit align-middle;
+}
+
+/* Spacing for badges/images in any paragraph */
+.challenge-readme p:has(img) {
+  @apply flex flex-wrap gap-[1ch] mb-6 items-center;
+}
+
+.challenge-readme p:has(img) img {
+  @apply m-0;
+}
+
+/* Inline code styling */
+.challenge-readme :not(pre) > code {
+  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-primary font-bold text-[0.9em] before:content-none after:content-none;
+}
+
+.challenge-readme a {
+  @apply text-primary no-underline hover:underline mr-1;
+}
+
+/* Don't underline links that contain images (badges) */
+.challenge-readme a:has(img) {
+  @apply hover:no-underline;
+}
+
+/* Hide the 'Back' badge link at the bottom of official challenges */
+.challenge-readme a:has(img[alt="Back"]),
+.challenge-readme a:has(img[src*="badge/-Back-"]),
+.challenge-readme img[alt="Back"],
+.challenge-readme img[src*="badge/-Back-"] {
+  @apply hidden!;
+}
+
+/* --- View Transition Theme Toggle (Cat Dance) --- */
+::view-transition-group(root) {
+  animation-timing-function: var(--expo-in);
+}
+
+::view-transition-new(root) {
+  mask: url("https://media.tenor.com/kQA86PqyXZQAAAAi/small-dancing-white-cat-dance-funny.gif")
+    center / 0 no-repeat;
+  animation: scale 3s;
+  animation-fill-mode: both;
+}
+
+::view-transition-old(root),
+.dark::view-transition-old(root) {
+  animation: scale 3s;
+  animation-fill-mode: both;
+}
+
+@keyframes scale {
+  0% {
+    mask-size: 0;
+  }
+  10% {
+    mask-size: 20vmax;
+  }
+  90% {
+    mask-size: 20vmax;
+  }
+  100% {
+    mask-size: 2000vmax;
+  }
+}
+
+/* --- Smart Skeleton Animation --- */
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.skeleton-loading
+  :where(
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    code,
+    li,
+    strong,
+    a,
+    .skeleton-block
+  ) {
+  color: transparent !important;
+  pointer-events: none;
+  user-select: none;
+  border-color: transparent !important;
+  /* Shimmer effect */
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.05) 25%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.05) 75%
+  ) !important;
+  background-size: 200% 100% !important;
+  animation: skeleton-shimmer 2s infinite linear !important;
+
+  /* The "Magic" property */
+  box-decoration-break: clone !important;
+  -webkit-box-decoration-break: clone !important;
+  border-radius: 4px;
+}
+
+.dark
+  .skeleton-loading
+  :where(
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    code,
+    li,
+    strong,
+    a,
+    .skeleton-block
+  ) {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.05) 75%
+  ) !important;
+}
+
+.skeleton-loading img {
+  opacity: 0 !important;
+}
