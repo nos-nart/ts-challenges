@@ -4,7 +4,9 @@ useSeoMeta({
   ogTitle: 'TypeScript Challenges',
   description: 'A platform to practice and master TypeScript with interactive challenges.',
   ogDescription: 'A platform to practice and master TypeScript with interactive challenges.',
-  twitterCard: 'summary_large_image'
+  ogImage: 'https://ts-challenges.vercel.app/__og-image__/static/og.png',
+  twitterCard: 'summary_large_image',
+  twitterImage: 'https://ts-challenges.vercel.app/__og-image__/static/og.png'
 })
 
 defineOgImage('NuxtSeo.takumi', {

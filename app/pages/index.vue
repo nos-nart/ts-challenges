@@ -16,7 +16,13 @@ useSeoMeta({
   ogTitle: () => store.currentChallenge ? `${store.currentChallenge.title} | TS Challenges` : 'TypeScript Challenges',
   description: () => store.currentChallenge
     ? `Can you solve the "${store.currentChallenge.title}" challenge? Master TypeScript one exercise at a time.`
-    : 'A platform to practice and master TypeScript with interactive challenges.'
+    : 'A platform to practice and master TypeScript with interactive challenges.',
+  ogImage: () => store.currentChallenge
+    ? `https://ts-challenges.vercel.app/__og-image__/static/challenge-${store.currentChallenge.name}.png`
+    : 'https://ts-challenges.vercel.app/__og-image__/static/og.png',
+  twitterImage: () => store.currentChallenge
+    ? `https://ts-challenges.vercel.app/__og-image__/static/challenge-${store.currentChallenge.name}.png`
+    : 'https://ts-challenges.vercel.app/__og-image__/static/og.png'
 })
 
 defineOgImage('NuxtSeo.takumi', {
