@@ -9,7 +9,8 @@ useSeoMeta({
   twitterImage: 'https://ts-challenges.vercel.app/__og-image__/static/og.png'
 })
 
-defineOgImage('NuxtSeo.takumi', {
+defineOgImage({
+  component: 'Takumi',
   title: 'TS Challenges',
   description: 'Master TypeScript through interactive practice.',
   colorMode: 'dark'

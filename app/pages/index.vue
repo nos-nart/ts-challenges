@@ -25,7 +25,8 @@ useSeoMeta({
     : 'https://ts-challenges.vercel.app/__og-image__/static/og.png'
 })
 
-defineOgImage('NuxtSeo.takumi', {
+defineOgImage({
+  component: 'Takumi',
   title: () => store.currentChallenge?.title || 'TS Challenges',
   description: () => store.currentChallenge
     ? `${store.currentChallenge.difficulty.toUpperCase()} Challenge • Interactive Practice`
