@@ -1,4 +1,4 @@
-import type * as Monaco from 'monaco-editor'
+import { setupMonaco } from '~/monaco/setup'
 
 export function useChallengeTester() {
   const results = ref<{
@@ -6,21 +6,20 @@ export function useChallengeTester() {
     errors: string[]
   }>({
     passed: false,
-    errors: [],
+    errors: []
   })
 
   async function testChallenge(userCode: string, testCases: string) {
-    const monaco = await import('monaco-editor')
-    const ui = useUiStore()
-    
+    const { monaco } = await setupMonaco()
+
     // Create a temporary model that combines code + tests
     const hasImport = testCases.includes('@type-challenges/utils')
-    const importStatement = hasImport ? '' : "import { Equal, Expect } from '@type-challenges/utils'\n\n"
+    const importStatement = hasImport ? '' : 'import { Equal, Expect } from \'@type-challenges/utils\'\n\n'
     const combinedCode = `${importStatement}${userCode}\n\n// --- Test Cases ---\n${testCases}`
-    
+
     const testUri = monaco.Uri.file('test-runner.ts')
     let testModel = monaco.editor.getModel(testUri)
-    
+
     if (testModel) {
       testModel.setValue(combinedCode)
     } else {
@@ -31,7 +30,7 @@ export function useChallengeTester() {
     const ts = monaco.languages.typescript as any
     const getWorker = await ts.getTypeScriptWorker()
     const worker = await getWorker(testUri)
-    
+
     // Get both syntax and semantic errors (Expect/Equal failures)
     const [syntactic, semantic] = await Promise.all([
       worker.getSyntacticDiagnostics(testUri.toString()),
@@ -39,25 +38,24 @@ export function useChallengeTester() {
     ])
 
     const allDiagnostics = [...syntactic, ...semantic]
-    
-    const errors = allDiagnostics.map((diag) => {
-      const pos = testModel!.getPositionAt(diag.start!);
-      const message =
-        typeof diag.messageText === "string"
-          ? diag.messageText
-          : diag.messageText.messageText;
 
-      return `Line ${pos.lineNumber}: ${message}`;
-    });
+    const errors = allDiagnostics.map((diag) => {
+      const pos = testModel!.getPositionAt(diag.start!)
+      const message
+        = typeof diag.messageText === 'string'
+          ? diag.messageText
+          : diag.messageText.messageText
+
+      return `Line ${pos.lineNumber}: ${message}`
+    })
 
     // --- FIX: Immediately dispose the model to prevent "Duplicate Identifier" errors in the main editor ---
-    testModel.dispose();
+    testModel.dispose()
 
     results.value = {
       passed: errors.length === 0,
-      errors,
-    };
-
+      errors
+    }
 
     return results.value
   }
@@ -65,13 +63,13 @@ export function useChallengeTester() {
   function reset() {
     results.value = {
       passed: false,
-      errors: [],
+      errors: []
     }
   }
 
   return {
     results,
     testChallenge,
-    reset,
+    reset
   }
 }

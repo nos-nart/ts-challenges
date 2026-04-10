@@ -1,5 +1,6 @@
 declare module 'splitpanes' {
-  import { DefineComponent, ComputedOptions, MethodOptions, ComponentOptionsMixin, VNodeProps, AllowedComponentProps, ComponentCustomProps } from 'vue'
+  import type { DefineComponent, ComponentOptionsMixin } from 'vue'
+  import { ComputedOptions, MethodOptions, VNodeProps, AllowedComponentProps, ComponentCustomProps } from 'vue'
 
   interface SplitpanesProps {
     horizontal?: boolean
@@ -19,6 +20,6 @@ declare module 'splitpanes' {
     style?: string | Record<string, any>
   }
 
-  export const Splitpanes: DefineComponent<SplitpanesProps, {}, {}, {}, {}, ComponentOptionsMixin, ComponentOptionsMixin, { resize: (...args: any[]) => void; resized: (...args: any[]) => void; 'pane-add': (...args: any[]) => void; 'pane-remove': (...args: any[]) => void; 'pane-click': (...args: any[]) => void }>
+  export const Splitpanes: DefineComponent<SplitpanesProps, {}, {}, {}, {}, ComponentOptionsMixin, ComponentOptionsMixin, { 'resize': (...args: any[]) => void, 'resized': (...args: any[]) => void, 'pane-add': (...args: any[]) => void, 'pane-remove': (...args: any[]) => void, 'pane-click': (...args: any[]) => void }>
   export const Pane: DefineComponent<PaneProps, {}, {}, {}, {}, ComponentOptionsMixin, ComponentOptionsMixin, {}>
 }

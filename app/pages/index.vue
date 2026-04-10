@@ -1,198 +1,227 @@
 <script setup lang="ts">
-import { Splitpanes, Pane } from "splitpanes";
-import { useChallengeStore } from "~/stores/challenge";
-import { useUiStore } from "~/stores/ui";
-import { useUserStore } from "~/stores/user";
-import { useMounted } from "@vueuse/core";
+import { Splitpanes, Pane } from 'splitpanes'
+import { useChallengeStore } from '~/stores/challenge'
+import { useUiStore } from '~/stores/ui'
+import { useUserStore } from '~/stores/user'
+import { useMounted } from '@vueuse/core'
 
-const store = useChallengeStore();
-const ui = useUiStore();
-const user = useUserStore();
-const code = ref("");
+const store = useChallengeStore()
+const ui = useUiStore()
+const user = useUserStore()
+const code = ref('')
+
+// Dynamic SEO
+useSeoMeta({
+  title: () => store.currentChallenge ? `${store.currentChallenge.title}` : 'Select a Challenge',
+  ogTitle: () => store.currentChallenge ? `${store.currentChallenge.title} | TS Challenges` : 'TypeScript Challenges',
+  description: () => store.currentChallenge
+    ? `Can you solve the "${store.currentChallenge.title}" challenge? Master TypeScript one exercise at a time.`
+    : 'A platform to practice and master TypeScript with interactive challenges.'
+})
+
+defineOgImage('NuxtSeo.takumi', {
+  title: () => store.currentChallenge?.title || 'TS Challenges',
+  description: () => store.currentChallenge
+    ? `${store.currentChallenge.difficulty.toUpperCase()} Challenge • Interactive Practice`
+    : 'Master TypeScript with interactive challenges.',
+  colorMode: 'dark'
+})
 
 // Auto-save code as user types
 watch(code, (newCode) => {
   if (store.currentChallenge && newCode) {
-    user.saveSolution(store.currentChallenge.name, newCode);
+    user.saveSolution(store.currentChallenge.name, newCode)
   }
-});
+})
 
 // Restore solution or template when challenge changes
 watch(
   () => store.currentChallenge,
   (newChallenge) => {
     if (newChallenge) {
-      const saved = user.getSolution(newChallenge.name);
-      code.value = saved || newChallenge.template || "";
-      resetResults();
+      const saved = user.getSolution(newChallenge.name)
+      code.value = saved || newChallenge.template || ''
+      resetResults()
     }
-  },
-);
+  }
+)
 
-const colorMode = useColorMode();
-const isDark = computed(() => colorMode.value === "dark");
+const colorMode = useColorMode()
+const isDark = computed(() => colorMode.value === 'dark')
 
 // TS Version handling
 const selectedVersion = ref(
-  ui.supportedTsVersions.find((v) => v.value === ui.tsVersion) ||
-    ui.supportedTsVersions[0],
-);
+  ui.supportedTsVersions.find(v => v.value === ui.tsVersion)
+  || ui.supportedTsVersions[0]
+)
 
-const defaultTsVersion = ui.supportedTsVersions?.[0]?.value;
+const defaultTsVersion = ui.supportedTsVersions?.[0]?.value
 
 // Keep UI ref in sync with store (important for initialization and reloads)
 watch(
   () => ui.tsVersion,
   (newVer) => {
-    const found = ui.supportedTsVersions.find((v) => v.value === newVer);
-    if (found) selectedVersion.value = found;
-  },
-);
+    const found = ui.supportedTsVersions.find(v => v.value === newVer)
+    if (found) selectedVersion.value = found
+  }
+)
 
-onMounted(() => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const v = urlParams.get("v");
+onMounted(async () => {
+  const urlParams = new URLSearchParams(window.location.search)
+  const v = urlParams.get('v')
+  const c = urlParams.get('c')
 
   if (v) {
-    const found = ui.supportedTsVersions.find((ver) => ver.value === v);
+    const found = ui.supportedTsVersions.find((ver) => ver.value === v)
     if (found) {
-      ui.tsVersion = v;
+      ui.tsVersion = v
     }
   } else if (defaultTsVersion) {
-    ui.tsVersion = defaultTsVersion;
+    ui.tsVersion = defaultTsVersion
   }
-});
 
-const handleVersionChange = (version: any) => {
-  ui.tsVersion = version.value;
-  const url = new URL(window.location.href);
-  const defaultVersion = ui.supportedTsVersions?.[0]?.value;
+  // Restore challenge
+  if (c) {
+    if (store.challenges.length === 0) {
+      await store.fetchChallenges()
+    }
+    const challenge = store.challenges.find((ch) => ch.name === c)
+    if (challenge) {
+      store.selectChallenge(challenge)
+    }
+  }
+})
+
+const handleVersionChange = (version: { value: string }) => {
+  ui.tsVersion = version.value
+  const url = new URL(window.location.href)
+  const defaultVersion = ui.supportedTsVersions?.[0]?.value
 
   if (version.value === defaultVersion) {
-    url.searchParams.delete("v");
+    url.searchParams.delete('v')
   } else {
-    url.searchParams.set("v", version.value);
+    url.searchParams.set('v', version.value)
   }
-  window.location.href = url.toString();
-};
+  window.location.href = url.toString()
+}
 
 const toggleColorMode = () => {
-  const isAppearanceTransition =
-    typeof document !== "undefined" &&
-    "startViewTransition" in document &&
-    !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const isAppearanceTransition
+    = typeof document !== 'undefined'
+      && 'startViewTransition' in document
+      && !window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
   if (!isAppearanceTransition) {
-    colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
-    return;
+    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+    return
   }
 
   document.startViewTransition(async () => {
-    colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
-    await nextTick();
-  });
-};
+    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+    await nextTick()
+  })
+}
 
-const editorRef = ref<{ getModel: () => any; format: () => void } | null>(null);
-const { results, testChallenge, reset: resetResults } = useChallengeTester();
-const toast = useToast();
+const editorRef = ref<{ getModel: () => unknown, format: () => void } | null>(null)
+const { results, testChallenge, reset: resetResults } = useChallengeTester()
+const toast = useToast()
 
 const formatCode = () => {
-  editorRef.value?.format();
-};
+  editorRef.value?.format()
+}
 
 const handleSubmit = async () => {
-  if (!store.currentChallenge) return;
+  if (!store.currentChallenge) return
 
-  const normalizedCode = code.value.trim();
-  const normalizedTemplate = store.currentChallenge.template?.trim();
+  const normalizedCode = code.value.trim()
+  const normalizedTemplate = store.currentChallenge.template?.trim()
 
   if (normalizedCode === normalizedTemplate) {
     toast.add({
-      title: "No changes detected",
-      description: "Please implement your solution before submitting.",
-      color: "warning",
-    });
-    return;
+      title: 'No changes detected',
+      description: 'Please implement your solution before submitting.',
+      color: 'warning'
+    })
+    return
   }
 
   const res = await testChallenge(
     code.value,
-    store.currentChallenge.tests || "",
-  );
+    store.currentChallenge.tests || ''
+  )
 
   // Save progress
-  user.updateProgress(store.currentChallenge.name, res.passed ? 'passed' : 'failed');
+  user.updateProgress(store.currentChallenge.name, res.passed ? 'passed' : 'failed')
 
   if (res.passed) {
     toast.add({
-      title: "Challenge Completed!",
-      description: "All type checks passed!",
-      color: "success",
-    });
+      title: 'Challenge Completed!',
+      description: 'All type checks passed!',
+      color: 'success'
+    })
   } else {
     toast.add({
-      title: "Check Failed",
+      title: 'Check Failed',
       description: `Found ${res.errors.length} errors`,
-      color: "error",
-    });
+      color: 'error'
+    })
   }
-};
+}
 
 // Dragging logic
 function onResizeMain(e: { size: number }[]) {
   if (ui) {
-    ui.isDragging = true;
-    if (e[0]) ui.panelSidebar = e[0].size;
+    ui.isDragging = true
+    if (e[0]) ui.panelSidebar = e[0].size
   }
 }
 
 function onResizedMain() {
-  if (ui) ui.isDragging = false;
+  if (ui) ui.isDragging = false
 }
 
 function onResizeHorizontal(e: { size: number }[]) {
   if (ui) {
-    ui.isDragging = true;
-    if (e[0]) ui.panelEditorHeight = e[0].size;
+    ui.isDragging = true
+    if (e[0]) ui.panelEditorHeight = e[0].size
   }
 }
 
 function onResizedHorizontal() {
-  if (ui) ui.isDragging = false;
+  if (ui) ui.isDragging = false
 }
 
 function onResizeEditorPane(e: { size: number }[]) {
   if (ui) {
-    ui.isDragging = true;
-    if (e[0]) ui.panelInstructions = e[0].size;
+    ui.isDragging = true
+    if (e[0]) ui.panelInstructions = e[0].size
   }
 }
 
 function onResizedEditorPane() {
-  if (ui) ui.isDragging = false;
+  if (ui) ui.isDragging = false
 }
 
 // SSR hydration stability
-const isMounted = useMounted();
+const isMounted = useMounted()
 const sidebarInit = computed(() =>
-  isMounted.value ? {} : { width: `${ui?.panelSidebar}%` },
-);
+  isMounted.value ? {} : { width: `${ui?.panelSidebar}%` }
+)
 const mainInit = computed(() =>
-  isMounted.value ? {} : { width: `${ui?.panelMain}%` },
-);
+  isMounted.value ? {} : { width: `${ui?.panelMain}%` }
+)
 const instrInit = computed(() =>
-  isMounted.value ? {} : { width: `${ui?.panelInstructions}%` },
-);
+  isMounted.value ? {} : { width: `${ui?.panelInstructions}%` }
+)
 const editorInit = computed(() =>
-  isMounted.value ? {} : { width: `${ui?.panelEditor}%` },
-);
+  isMounted.value ? {} : { width: `${ui?.panelEditor}%` }
+)
 const editorHeightInit = computed(() =>
-  isMounted.value ? {} : { height: `${ui?.panelEditorHeight}%` },
-);
+  isMounted.value ? {} : { height: `${ui?.panelEditorHeight}%` }
+)
 const resultsHeightInit = computed(() =>
-  isMounted.value ? {} : { height: `${ui?.panelResultsHeight}%` },
-);
+  isMounted.value ? {} : { height: `${ui?.panelResultsHeight}%` }
+)
 </script>
 
 <template>
@@ -207,10 +236,9 @@ const resultsHeightInit = computed(() =>
         >
           TYPE&lt;<span
             class="text-blue-500 underline underline-offset-4 decoration-red-500 decoration-wavy"
-            >CHALLENGES</span
-          >[]&gt;<span
+          >CHALLENGES</span>[]&gt;<span
             class="after:animate-blink after:text-black after:content-['|']"
-          ></span>
+          />
         </h1>
       </div>
 
@@ -226,7 +254,10 @@ const resultsHeightInit = computed(() =>
           @update:model-value="handleVersionChange"
         >
           <template #leading>
-            <UIcon name="i-solar-code-2-bold-duotone" class="w-4 h-4 opacity-50" />
+            <UIcon
+              name="i-solar-code-2-bold-duotone"
+              class="w-4 h-4 opacity-50"
+            />
           </template>
         </USelectMenu>
 
@@ -263,14 +294,20 @@ const resultsHeightInit = computed(() =>
           <PaneSplitter />
 
           <!-- Editor & Instructions -->
-          <Pane :size="ui?.panelMain" :style="mainInit">
+          <Pane
+            :size="ui?.panelMain"
+            :style="mainInit"
+          >
             <Splitpanes
               horizontal
               :class="ui?.isDragging ? 'splitpanes--dragging' : ''"
               @resize="onResizeHorizontal"
               @resized="onResizedHorizontal"
             >
-              <Pane :size="ui?.panelEditorHeight" :style="editorHeightInit">
+              <Pane
+                :size="ui?.panelEditorHeight"
+                :style="editorHeightInit"
+              >
                 <Splitpanes
                   :class="ui?.isDragging ? 'splitpanes--dragging' : ''"
                   @resize="onResizeEditorPane"
@@ -291,23 +328,23 @@ const resultsHeightInit = computed(() =>
                             {
                               label: 'Challenge',
                               icon: 'i-solar-dumbbell-large-minimalistic-bold-duotone',
-                              slot: 'readme',
+                              slot: 'readme'
                             },
                             {
                               label: 'Hint',
                               icon: 'i-solar-lightbulb-bolt-bold-duotone',
-                              slot: 'hint',
+                              slot: 'hint'
                             },
                             {
                               label: 'Learn',
                               icon: 'i-solar-book-bookmark-bold-duotone',
-                              slot: 'learn',
-                            },
+                              slot: 'learn'
+                            }
                           ]"
                           variant="link"
                           class="w-full h-full flex flex-col"
                           :ui="{
-                            content: 'flex-1 overflow-y-auto p-6',
+                            content: 'flex-1 overflow-y-auto p-6'
                           }"
                         >
                           <template #readme>
@@ -368,8 +405,8 @@ const resultsHeightInit = computed(() =>
 
                                     <LazyUSeparator
                                       v-if="
-                                        index <
-                                        store.activeConcepts.length - 1
+                                        index
+                                          < store.activeConcepts.length - 1
                                       "
                                       class="my-12"
                                     />
@@ -379,7 +416,7 @@ const resultsHeightInit = computed(() =>
                               <div
                                 v-else-if="!store.detailsLoading"
                                 class="flex flex-col items-center justify-center py-10 opacity-50"
-                               >
+                              >
                                 <UIcon
                                   name="i-solar-library-bold-duotone"
                                   class="w-10 h-10 mb-2"
@@ -415,7 +452,10 @@ const resultsHeightInit = computed(() =>
                   <PaneSplitter />
 
                   <!-- Editor -->
-                  <Pane :size="ui?.panelEditor" :style="editorInit">
+                  <Pane
+                    :size="ui?.panelEditor"
+                    :style="editorInit"
+                  >
                     <div
                       class="h-full flex flex-col bg-gray-50 dark:bg-black border-l border-gray-200 dark:border-gray-800 relative group"
                     >
@@ -423,7 +463,7 @@ const resultsHeightInit = computed(() =>
                         <LazyChallengeEditor
                           v-if="store.currentChallenge"
                           ref="editorRef"
-                          v-model="code"
+                          v-model:model-value="code"
                           :tests="store.currentChallenge.tests || ''"
                           path="solution.ts"
                         />
@@ -461,12 +501,15 @@ const resultsHeightInit = computed(() =>
                     </div>
                   </Pane>
                 </Splitpanes>
-              </pane>
+              </Pane>
 
               <PaneSplitter />
 
               <!-- Test Cases / Footer -->
-              <Pane :size="ui?.panelResultsHeight" :style="resultsHeightInit">
+              <Pane
+                :size="ui?.panelResultsHeight"
+                :style="resultsHeightInit"
+              >
                 <div
                   class="h-full flex flex-col bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 overflow-hidden"
                 >
@@ -475,8 +518,7 @@ const resultsHeightInit = computed(() =>
                   >
                     <span
                       class="text-[10px] font-bold uppercase tracking-widest opacity-60"
-                      >Results</span
-                    >
+                    >Results</span>
                     <div
                       v-if="results.errors.length"
                       class="text-[10px] text-red-500 font-bold uppercase"
@@ -513,10 +555,11 @@ const resultsHeightInit = computed(() =>
                       v-else-if="results.passed && store.currentChallenge"
                       class="p-4 flex items-center gap-2 text-green-600 dark:text-green-400 bg-green-50/50 dark:bg-green-950/10 border-b border-green-100 dark:border-green-900/20 shrink-0"
                     >
-                      <UIcon name="i-solar-check-circle-bold-duotone" class="w-4 h-4" />
-                      <span class="text-xs font-bold uppercase"
-                        >All tests passed!</span
-                      >
+                      <UIcon
+                        name="i-solar-check-circle-bold-duotone"
+                        class="w-4 h-4"
+                      />
+                      <span class="text-xs font-bold uppercase">All tests passed!</span>
                     </div>
 
                     <!-- Always show Test Cases -->

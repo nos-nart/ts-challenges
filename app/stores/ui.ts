@@ -26,7 +26,7 @@ export const useUiStore = defineStore('ui', () => {
   // Single cookie for all UI state
   const stateCookie = useCookie<Partial<typeof persistState>>(
     'ts-challenges-ui-state',
-    { 
+    {
       default: () => getLayoutDefaults(),
       watch: true,
       maxAge: 60 * 60 * 24 * 30 // 30 days

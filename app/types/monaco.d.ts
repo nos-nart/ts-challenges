@@ -14,7 +14,8 @@ declare module 'monaco-editor/esm/vs/language/json/json.worker?worker' {
 }
 
 declare module 'splitpanes' {
-  import { DefineComponent } from 'vue'
+  import type { DefineComponent } from 'vue'
+
   const Splitpanes: DefineComponent<any, any, any>
   const Pane: DefineComponent<any, any, any>
   export { Splitpanes, Pane }

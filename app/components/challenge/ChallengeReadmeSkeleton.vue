@@ -4,7 +4,7 @@
       <USkeleton class="h-8 w-[60%]" />
       <USkeleton class="h-4 w-[40%]" />
     </div>
-    
+
     <div class="space-y-3">
       <USkeleton class="h-4 w-full" />
       <USkeleton class="h-4 w-full" />
