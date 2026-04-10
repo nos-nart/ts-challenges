@@ -25,12 +25,11 @@ useSeoMeta({
     : 'https://ts-challenges.vercel.app/__og-image__/static/og.png'
 })
 
-defineOgImage({
-  component: 'Takumi',
-  title: () => store.currentChallenge?.title || 'TS Challenges',
-  description: () => store.currentChallenge
+defineOgImage('Custom', {
+  title: computed(() => store.currentChallenge?.title || 'TS Challenges'),
+  description: computed(() => store.currentChallenge
     ? `${store.currentChallenge.difficulty.toUpperCase()} Challenge • Interactive Practice`
-    : 'Master TypeScript with interactive challenges.',
+    : 'Master TypeScript with interactive challenges.'),
   colorMode: 'dark'
 })
 
