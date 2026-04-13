@@ -11,7 +11,8 @@ const user = useUserStore()
 const code = ref('')
 
 const breakpoints = useBreakpoints(breakpointsTailwind)
-const isDesktop = breakpoints.greaterOrEqual('lg')
+const largerThanLg = breakpoints.greaterOrEqual('lg')
+const isDesktop = computed(() => isMounted.value ? largerThanLg.value : false)
 const isSidebarOpen = ref(false)
 
 // Dynamic SEO
@@ -242,59 +243,71 @@ const resultsHeightInit = computed(() =>
       class="h-12 flex items-center justify-between px-6 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shrink-0 z-20"
     >
       <div class="flex items-center gap-2">
-        <UButton
-          v-if="!isDesktop"
-          icon="i-solar-hamburger-menu-bold-duotone"
-          color="neutral"
-          variant="ghost"
-          size="sm"
-          @click="isSidebarOpen = true"
-        />
-
-        <h1
-          class="tracking-tight text-md flex items-center font-mono font-bold"
-        >
-          <template v-if="isDesktop">
-            TYPE&lt;<span
-              class="text-blue-500 underline underline-offset-4 decoration-red-500 decoration-wavy"
-            >CHALLENGES</span>[]&gt;
-          </template>
-          <template v-else>
-            TS[]
-          </template>
-          <span
-            class="after:animate-blink after:text-black after:content-['|']"
+        <template v-if="!isMounted">
+          <USkeleton class="h-8 w-8 rounded-md sm:hidden" />
+          <USkeleton class="h-5 w-32 hidden sm:block" />
+        </template>
+        <template v-else>
+          <UButton
+            v-if="!isDesktop"
+            icon="i-solar-hamburger-menu-bold-duotone"
+            color="neutral"
+            variant="ghost"
+            size="sm"
+            @click="isSidebarOpen = true"
           />
-        </h1>
+
+          <h1
+            class="tracking-tight text-md flex items-center font-mono font-bold"
+          >
+            <template v-if="isDesktop">
+              TYPE&lt;<span
+                class="text-blue-500 underline underline-offset-4 decoration-red-500 decoration-wavy"
+              >CHALLENGES</span>[]&gt;
+            </template>
+            <template v-else>
+              TS[]
+            </template>
+            <span
+              class="after:animate-blink after:text-black after:content-['|']"
+            />
+          </h1>
+        </template>
       </div>
 
       <div class="flex items-center gap-1.5 sm:gap-3">
-        <USelectMenu
-          v-model="selectedVersion"
-          :items="ui.supportedTsVersions"
-          size="sm"
-          :class="isDesktop ? 'w-40' : 'w-24'"
-          searchable
-          by="value"
-          :placeholder="isDesktop ? 'Select TS Version' : 'v5.7.3'"
-          @update:model-value="handleVersionChange"
-        >
-          <template #leading>
-            <UIcon
-              name="i-solar-code-2-bold-duotone"
-              class="w-4 h-4 opacity-50"
-            />
-          </template>
-        </USelectMenu>
+        <template v-if="!isMounted">
+          <USkeleton class="h-8 w-24 sm:w-40" />
+          <USkeleton class="h-8 w-8 rounded-full" />
+        </template>
+        <template v-else>
+          <USelectMenu
+            v-model="selectedVersion"
+            :items="ui.supportedTsVersions"
+            size="sm"
+            :class="isDesktop ? 'w-40' : 'w-24'"
+            searchable
+            by="value"
+            :placeholder="isDesktop ? 'Select TS Version' : 'v5.7.3'"
+            @update:model-value="handleVersionChange"
+          >
+            <template #leading>
+              <UIcon
+                name="i-solar-code-2-bold-duotone"
+                class="w-4 h-4 opacity-50"
+              />
+            </template>
+          </USelectMenu>
 
-        <UButton
-          :icon="isDark ? 'i-solar-sun-2-bold-duotone' : 'i-solar-moon-bold-duotone'"
-          color="neutral"
-          variant="ghost"
-          size="sm"
-          aria-label="Toggle Color Mode"
-          @click="toggleColorMode"
-        />
+          <UButton
+            :icon="isDark ? 'i-solar-sun-2-bold-duotone' : 'i-solar-moon-bold-duotone'"
+            color="neutral"
+            variant="ghost"
+            size="sm"
+            aria-label="Toggle Color Mode"
+            @click="toggleColorMode"
+          />
+        </template>
       </div>
     </header>
 
