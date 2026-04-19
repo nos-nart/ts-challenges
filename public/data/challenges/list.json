@@ -1,0 +1,3042 @@
+[
+  {
+    "name": "00002-medium-return-type",
+    "path": "questions/00002-medium-return-type",
+    "sha": "e1dd12a8b945fdff3b0776450818df5fcd78d6b9",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00002-medium-return-type?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00002-medium-return-type",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e1dd12a8b945fdff3b0776450818df5fcd78d6b9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00002-medium-return-type?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e1dd12a8b945fdff3b0776450818df5fcd78d6b9",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00002-medium-return-type"
+    }
+  },
+  {
+    "name": "00003-medium-omit",
+    "path": "questions/00003-medium-omit",
+    "sha": "ff70d4d8622fb6b9bfe54a01f900c6d35eeff885",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00003-medium-omit?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00003-medium-omit",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ff70d4d8622fb6b9bfe54a01f900c6d35eeff885",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00003-medium-omit?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ff70d4d8622fb6b9bfe54a01f900c6d35eeff885",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00003-medium-omit"
+    }
+  },
+  {
+    "name": "00004-easy-pick",
+    "path": "questions/00004-easy-pick",
+    "sha": "b6bcca688e1d21f91b57eb0dc335ea5ea46461f6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00004-easy-pick?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00004-easy-pick",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b6bcca688e1d21f91b57eb0dc335ea5ea46461f6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00004-easy-pick?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b6bcca688e1d21f91b57eb0dc335ea5ea46461f6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00004-easy-pick"
+    }
+  },
+  {
+    "name": "00005-extreme-readonly-keys",
+    "path": "questions/00005-extreme-readonly-keys",
+    "sha": "dcb3b42f34a8278f1b83ac4ff73e1d660ef0d1c6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00005-extreme-readonly-keys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00005-extreme-readonly-keys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/dcb3b42f34a8278f1b83ac4ff73e1d660ef0d1c6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00005-extreme-readonly-keys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/dcb3b42f34a8278f1b83ac4ff73e1d660ef0d1c6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00005-extreme-readonly-keys"
+    }
+  },
+  {
+    "name": "00006-hard-simple-vue",
+    "path": "questions/00006-hard-simple-vue",
+    "sha": "48212149116d952508503238def551ffb09ef013",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00006-hard-simple-vue?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00006-hard-simple-vue",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/48212149116d952508503238def551ffb09ef013",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00006-hard-simple-vue?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/48212149116d952508503238def551ffb09ef013",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00006-hard-simple-vue"
+    }
+  },
+  {
+    "name": "00007-easy-readonly",
+    "path": "questions/00007-easy-readonly",
+    "sha": "ec6a1eecdeabaf1d2a22a126e482aa091719aa03",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00007-easy-readonly?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00007-easy-readonly",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ec6a1eecdeabaf1d2a22a126e482aa091719aa03",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00007-easy-readonly?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ec6a1eecdeabaf1d2a22a126e482aa091719aa03",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00007-easy-readonly"
+    }
+  },
+  {
+    "name": "00008-medium-readonly-2",
+    "path": "questions/00008-medium-readonly-2",
+    "sha": "254a01ee60f7e98acb531fe03a30da0130d01069",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00008-medium-readonly-2?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00008-medium-readonly-2",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/254a01ee60f7e98acb531fe03a30da0130d01069",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00008-medium-readonly-2?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/254a01ee60f7e98acb531fe03a30da0130d01069",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00008-medium-readonly-2"
+    }
+  },
+  {
+    "name": "00009-medium-deep-readonly",
+    "path": "questions/00009-medium-deep-readonly",
+    "sha": "952feeb830ad6d05c41a0c66121d30c6f53ba08d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00009-medium-deep-readonly?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00009-medium-deep-readonly",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/952feeb830ad6d05c41a0c66121d30c6f53ba08d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00009-medium-deep-readonly?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/952feeb830ad6d05c41a0c66121d30c6f53ba08d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00009-medium-deep-readonly"
+    }
+  },
+  {
+    "name": "00010-medium-tuple-to-union",
+    "path": "questions/00010-medium-tuple-to-union",
+    "sha": "e4bdc089d7681dd7420bf12bff351ece8bea4a7d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00010-medium-tuple-to-union?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00010-medium-tuple-to-union",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e4bdc089d7681dd7420bf12bff351ece8bea4a7d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00010-medium-tuple-to-union?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e4bdc089d7681dd7420bf12bff351ece8bea4a7d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00010-medium-tuple-to-union"
+    }
+  },
+  {
+    "name": "00011-easy-tuple-to-object",
+    "path": "questions/00011-easy-tuple-to-object",
+    "sha": "73f136a9abe659d34be4bfad7c566d9124c71501",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00011-easy-tuple-to-object?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00011-easy-tuple-to-object",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/73f136a9abe659d34be4bfad7c566d9124c71501",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00011-easy-tuple-to-object?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/73f136a9abe659d34be4bfad7c566d9124c71501",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00011-easy-tuple-to-object"
+    }
+  },
+  {
+    "name": "00012-medium-chainable-options",
+    "path": "questions/00012-medium-chainable-options",
+    "sha": "18524a87cae56768a915f848d84ff38be8a2da7f",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00012-medium-chainable-options?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00012-medium-chainable-options",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/18524a87cae56768a915f848d84ff38be8a2da7f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00012-medium-chainable-options?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/18524a87cae56768a915f848d84ff38be8a2da7f",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00012-medium-chainable-options"
+    }
+  },
+  {
+    "name": "00013-warm-hello-world",
+    "path": "questions/00013-warm-hello-world",
+    "sha": "18284370162c2716bab67fe1ebb88d8a0ae299ac",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00013-warm-hello-world?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00013-warm-hello-world",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/18284370162c2716bab67fe1ebb88d8a0ae299ac",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00013-warm-hello-world?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/18284370162c2716bab67fe1ebb88d8a0ae299ac",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00013-warm-hello-world"
+    }
+  },
+  {
+    "name": "00014-easy-first",
+    "path": "questions/00014-easy-first",
+    "sha": "901a63b3296df419a1a975c2d6753a69b3cbdd55",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00014-easy-first?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00014-easy-first",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/901a63b3296df419a1a975c2d6753a69b3cbdd55",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00014-easy-first?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/901a63b3296df419a1a975c2d6753a69b3cbdd55",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00014-easy-first"
+    }
+  },
+  {
+    "name": "00015-medium-last",
+    "path": "questions/00015-medium-last",
+    "sha": "a5ca50398941967701a61877e28f19ef841133ee",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00015-medium-last?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00015-medium-last",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a5ca50398941967701a61877e28f19ef841133ee",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00015-medium-last?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a5ca50398941967701a61877e28f19ef841133ee",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00015-medium-last"
+    }
+  },
+  {
+    "name": "00016-medium-pop",
+    "path": "questions/00016-medium-pop",
+    "sha": "409547aeee675cc4a838146bac8edc33ec025828",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00016-medium-pop?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00016-medium-pop",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/409547aeee675cc4a838146bac8edc33ec025828",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00016-medium-pop?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/409547aeee675cc4a838146bac8edc33ec025828",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00016-medium-pop"
+    }
+  },
+  {
+    "name": "00017-hard-currying-1",
+    "path": "questions/00017-hard-currying-1",
+    "sha": "2b9f9c59dc7626580576df05fc5e542f9e7842c6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00017-hard-currying-1?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00017-hard-currying-1",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2b9f9c59dc7626580576df05fc5e542f9e7842c6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00017-hard-currying-1?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2b9f9c59dc7626580576df05fc5e542f9e7842c6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00017-hard-currying-1"
+    }
+  },
+  {
+    "name": "00018-easy-tuple-length",
+    "path": "questions/00018-easy-tuple-length",
+    "sha": "c7eaafca9854b241ef602bfa42a9005dc4495668",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00018-easy-tuple-length?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00018-easy-tuple-length",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c7eaafca9854b241ef602bfa42a9005dc4495668",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00018-easy-tuple-length?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c7eaafca9854b241ef602bfa42a9005dc4495668",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00018-easy-tuple-length"
+    }
+  },
+  {
+    "name": "00020-medium-promise-all",
+    "path": "questions/00020-medium-promise-all",
+    "sha": "405e0958d55184e001fb2a7b8bb7a79bbde5f352",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00020-medium-promise-all?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00020-medium-promise-all",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/405e0958d55184e001fb2a7b8bb7a79bbde5f352",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00020-medium-promise-all?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/405e0958d55184e001fb2a7b8bb7a79bbde5f352",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00020-medium-promise-all"
+    }
+  },
+  {
+    "name": "00043-easy-exclude",
+    "path": "questions/00043-easy-exclude",
+    "sha": "8a61568657a63d6e454d2551c2eaae0f5c99ee18",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00043-easy-exclude?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00043-easy-exclude",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8a61568657a63d6e454d2551c2eaae0f5c99ee18",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00043-easy-exclude?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8a61568657a63d6e454d2551c2eaae0f5c99ee18",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00043-easy-exclude"
+    }
+  },
+  {
+    "name": "00055-hard-union-to-intersection",
+    "path": "questions/00055-hard-union-to-intersection",
+    "sha": "2cec0b744e0ebb9bcbd44e86fd68051c8e6bbf9e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00055-hard-union-to-intersection?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00055-hard-union-to-intersection",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2cec0b744e0ebb9bcbd44e86fd68051c8e6bbf9e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00055-hard-union-to-intersection?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2cec0b744e0ebb9bcbd44e86fd68051c8e6bbf9e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00055-hard-union-to-intersection"
+    }
+  },
+  {
+    "name": "00057-hard-get-required",
+    "path": "questions/00057-hard-get-required",
+    "sha": "7008cc7bbdfd1aef433530c7ec80760dc0c83cd7",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00057-hard-get-required?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00057-hard-get-required",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7008cc7bbdfd1aef433530c7ec80760dc0c83cd7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00057-hard-get-required?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7008cc7bbdfd1aef433530c7ec80760dc0c83cd7",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00057-hard-get-required"
+    }
+  },
+  {
+    "name": "00059-hard-get-optional",
+    "path": "questions/00059-hard-get-optional",
+    "sha": "c791394734cee24c4565f954f5209d728c0750f2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00059-hard-get-optional?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00059-hard-get-optional",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c791394734cee24c4565f954f5209d728c0750f2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00059-hard-get-optional?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c791394734cee24c4565f954f5209d728c0750f2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00059-hard-get-optional"
+    }
+  },
+  {
+    "name": "00062-medium-type-lookup",
+    "path": "questions/00062-medium-type-lookup",
+    "sha": "6665c0b03ec77ab742f1a3c7b997611b6a6aec23",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00062-medium-type-lookup?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00062-medium-type-lookup",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/6665c0b03ec77ab742f1a3c7b997611b6a6aec23",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00062-medium-type-lookup?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/6665c0b03ec77ab742f1a3c7b997611b6a6aec23",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00062-medium-type-lookup"
+    }
+  },
+  {
+    "name": "00089-hard-required-keys",
+    "path": "questions/00089-hard-required-keys",
+    "sha": "9c2d4ce3d621d557be786deb7e43add0af6e2070",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00089-hard-required-keys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00089-hard-required-keys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9c2d4ce3d621d557be786deb7e43add0af6e2070",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00089-hard-required-keys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9c2d4ce3d621d557be786deb7e43add0af6e2070",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00089-hard-required-keys"
+    }
+  },
+  {
+    "name": "00090-hard-optional-keys",
+    "path": "questions/00090-hard-optional-keys",
+    "sha": "43f5946f5fba7f95aaf7f574339dae2360e4dbef",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00090-hard-optional-keys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00090-hard-optional-keys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/43f5946f5fba7f95aaf7f574339dae2360e4dbef",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00090-hard-optional-keys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/43f5946f5fba7f95aaf7f574339dae2360e4dbef",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00090-hard-optional-keys"
+    }
+  },
+  {
+    "name": "00106-medium-trimleft",
+    "path": "questions/00106-medium-trimleft",
+    "sha": "64f6e4c88042f5f1103ed7919d1b59ed58be784d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00106-medium-trimleft?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00106-medium-trimleft",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/64f6e4c88042f5f1103ed7919d1b59ed58be784d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00106-medium-trimleft?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/64f6e4c88042f5f1103ed7919d1b59ed58be784d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00106-medium-trimleft"
+    }
+  },
+  {
+    "name": "00108-medium-trim",
+    "path": "questions/00108-medium-trim",
+    "sha": "a0dd8f51c0c6bcef4cbca9748c91413925db1c34",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00108-medium-trim?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00108-medium-trim",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a0dd8f51c0c6bcef4cbca9748c91413925db1c34",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00108-medium-trim?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a0dd8f51c0c6bcef4cbca9748c91413925db1c34",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00108-medium-trim"
+    }
+  },
+  {
+    "name": "00110-medium-capitalize",
+    "path": "questions/00110-medium-capitalize",
+    "sha": "2fff03097b3ca47be3ed0290b7893768531b7752",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00110-medium-capitalize?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00110-medium-capitalize",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2fff03097b3ca47be3ed0290b7893768531b7752",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00110-medium-capitalize?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2fff03097b3ca47be3ed0290b7893768531b7752",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00110-medium-capitalize"
+    }
+  },
+  {
+    "name": "00112-hard-capitalizewords",
+    "path": "questions/00112-hard-capitalizewords",
+    "sha": "84b7ff0c5c3ece85212c258efbcabf827ae8a456",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00112-hard-capitalizewords?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00112-hard-capitalizewords",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/84b7ff0c5c3ece85212c258efbcabf827ae8a456",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00112-hard-capitalizewords?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/84b7ff0c5c3ece85212c258efbcabf827ae8a456",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00112-hard-capitalizewords"
+    }
+  },
+  {
+    "name": "00114-hard-camelcase",
+    "path": "questions/00114-hard-camelcase",
+    "sha": "2eef2e77c45f2daea3bebe1b95ea24b92cd68741",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00114-hard-camelcase?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00114-hard-camelcase",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2eef2e77c45f2daea3bebe1b95ea24b92cd68741",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00114-hard-camelcase?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2eef2e77c45f2daea3bebe1b95ea24b92cd68741",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00114-hard-camelcase"
+    }
+  },
+  {
+    "name": "00116-medium-replace",
+    "path": "questions/00116-medium-replace",
+    "sha": "80a439df97674d58ac688bd0d6f85fab6744836e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00116-medium-replace?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00116-medium-replace",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/80a439df97674d58ac688bd0d6f85fab6744836e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00116-medium-replace?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/80a439df97674d58ac688bd0d6f85fab6744836e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00116-medium-replace"
+    }
+  },
+  {
+    "name": "00119-medium-replaceall",
+    "path": "questions/00119-medium-replaceall",
+    "sha": "81b2c723839c7ca81f29e5cac48d7c51b19eb7e4",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00119-medium-replaceall?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00119-medium-replaceall",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/81b2c723839c7ca81f29e5cac48d7c51b19eb7e4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00119-medium-replaceall?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/81b2c723839c7ca81f29e5cac48d7c51b19eb7e4",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00119-medium-replaceall"
+    }
+  },
+  {
+    "name": "00147-hard-c-printf-parser",
+    "path": "questions/00147-hard-c-printf-parser",
+    "sha": "cd53db498be6fd8dd82ea456d7e539305ac06968",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00147-hard-c-printf-parser?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00147-hard-c-printf-parser",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cd53db498be6fd8dd82ea456d7e539305ac06968",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00147-hard-c-printf-parser?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cd53db498be6fd8dd82ea456d7e539305ac06968",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00147-hard-c-printf-parser"
+    }
+  },
+  {
+    "name": "00151-extreme-query-string-parser",
+    "path": "questions/00151-extreme-query-string-parser",
+    "sha": "057135e1d04c83af52ba0ef691929bd5b5e2da0a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00151-extreme-query-string-parser?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00151-extreme-query-string-parser",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/057135e1d04c83af52ba0ef691929bd5b5e2da0a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00151-extreme-query-string-parser?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/057135e1d04c83af52ba0ef691929bd5b5e2da0a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00151-extreme-query-string-parser"
+    }
+  },
+  {
+    "name": "00189-easy-awaited",
+    "path": "questions/00189-easy-awaited",
+    "sha": "d85e2115972534879ecb77f597ecb0532480accf",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00189-easy-awaited?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00189-easy-awaited",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d85e2115972534879ecb77f597ecb0532480accf",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00189-easy-awaited?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d85e2115972534879ecb77f597ecb0532480accf",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00189-easy-awaited"
+    }
+  },
+  {
+    "name": "00191-medium-append-argument",
+    "path": "questions/00191-medium-append-argument",
+    "sha": "73096fd37a84bbdd533709e7eff20da3e9ea90d5",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00191-medium-append-argument?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00191-medium-append-argument",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/73096fd37a84bbdd533709e7eff20da3e9ea90d5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00191-medium-append-argument?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/73096fd37a84bbdd533709e7eff20da3e9ea90d5",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00191-medium-append-argument"
+    }
+  },
+  {
+    "name": "00213-hard-vue-basic-props",
+    "path": "questions/00213-hard-vue-basic-props",
+    "sha": "6cd20781cdb5caff959bd049483f79e0cb7b21e3",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00213-hard-vue-basic-props?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00213-hard-vue-basic-props",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/6cd20781cdb5caff959bd049483f79e0cb7b21e3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00213-hard-vue-basic-props?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/6cd20781cdb5caff959bd049483f79e0cb7b21e3",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00213-hard-vue-basic-props"
+    }
+  },
+  {
+    "name": "00216-extreme-slice",
+    "path": "questions/00216-extreme-slice",
+    "sha": "ecebce362fb5e98d92b7a7cf3fd25c4559676552",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00216-extreme-slice?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00216-extreme-slice",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ecebce362fb5e98d92b7a7cf3fd25c4559676552",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00216-extreme-slice?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ecebce362fb5e98d92b7a7cf3fd25c4559676552",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00216-extreme-slice"
+    }
+  },
+  {
+    "name": "00223-hard-isany",
+    "path": "questions/00223-hard-isany",
+    "sha": "08cd626fb7e3d049efa99459fbad290421d81b07",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00223-hard-isany?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00223-hard-isany",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/08cd626fb7e3d049efa99459fbad290421d81b07",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00223-hard-isany?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/08cd626fb7e3d049efa99459fbad290421d81b07",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00223-hard-isany"
+    }
+  },
+  {
+    "name": "00268-easy-if",
+    "path": "questions/00268-easy-if",
+    "sha": "2eebda973946699dded716b6d6ee4c0b8b43b57e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00268-easy-if?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00268-easy-if",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2eebda973946699dded716b6d6ee4c0b8b43b57e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00268-easy-if?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2eebda973946699dded716b6d6ee4c0b8b43b57e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00268-easy-if"
+    }
+  },
+  {
+    "name": "00270-hard-typed-get",
+    "path": "questions/00270-hard-typed-get",
+    "sha": "bf68393804d305cff7f770eb75c302160290c3b8",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00270-hard-typed-get?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00270-hard-typed-get",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/bf68393804d305cff7f770eb75c302160290c3b8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00270-hard-typed-get?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/bf68393804d305cff7f770eb75c302160290c3b8",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00270-hard-typed-get"
+    }
+  },
+  {
+    "name": "00274-extreme-integers-comparator",
+    "path": "questions/00274-extreme-integers-comparator",
+    "sha": "aaf4e3ceee4dd21d74d72222fe593cbfdf2ed13f",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00274-extreme-integers-comparator?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00274-extreme-integers-comparator",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/aaf4e3ceee4dd21d74d72222fe593cbfdf2ed13f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00274-extreme-integers-comparator?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/aaf4e3ceee4dd21d74d72222fe593cbfdf2ed13f",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00274-extreme-integers-comparator"
+    }
+  },
+  {
+    "name": "00296-medium-permutation",
+    "path": "questions/00296-medium-permutation",
+    "sha": "d3fd5eb722bab659c36b28f756f25a223b82d8e3",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00296-medium-permutation?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00296-medium-permutation",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d3fd5eb722bab659c36b28f756f25a223b82d8e3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00296-medium-permutation?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d3fd5eb722bab659c36b28f756f25a223b82d8e3",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00296-medium-permutation"
+    }
+  },
+  {
+    "name": "00298-medium-length-of-string",
+    "path": "questions/00298-medium-length-of-string",
+    "sha": "3bdcb37f318d023b88f05a8ede84683ca3f37803",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00298-medium-length-of-string?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00298-medium-length-of-string",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3bdcb37f318d023b88f05a8ede84683ca3f37803",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00298-medium-length-of-string?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3bdcb37f318d023b88f05a8ede84683ca3f37803",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00298-medium-length-of-string"
+    }
+  },
+  {
+    "name": "00300-hard-string-to-number",
+    "path": "questions/00300-hard-string-to-number",
+    "sha": "4585c25cefb668fb5df2c4d4a0b5448388ad7cab",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00300-hard-string-to-number?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00300-hard-string-to-number",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/4585c25cefb668fb5df2c4d4a0b5448388ad7cab",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00300-hard-string-to-number?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/4585c25cefb668fb5df2c4d4a0b5448388ad7cab",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00300-hard-string-to-number"
+    }
+  },
+  {
+    "name": "00399-hard-tuple-filter",
+    "path": "questions/00399-hard-tuple-filter",
+    "sha": "9fe15870c8db2fc66433a8bb5c2d9fc2ae8d8008",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00399-hard-tuple-filter?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00399-hard-tuple-filter",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9fe15870c8db2fc66433a8bb5c2d9fc2ae8d8008",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00399-hard-tuple-filter?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9fe15870c8db2fc66433a8bb5c2d9fc2ae8d8008",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00399-hard-tuple-filter"
+    }
+  },
+  {
+    "name": "00459-medium-flatten",
+    "path": "questions/00459-medium-flatten",
+    "sha": "5fab67d0b2eb513cb71456058e24719b219cc403",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00459-medium-flatten?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00459-medium-flatten",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5fab67d0b2eb513cb71456058e24719b219cc403",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00459-medium-flatten?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5fab67d0b2eb513cb71456058e24719b219cc403",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00459-medium-flatten"
+    }
+  },
+  {
+    "name": "00462-extreme-currying-2",
+    "path": "questions/00462-extreme-currying-2",
+    "sha": "9fd4892ee318000086c36c0caf3459109c8dfef7",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00462-extreme-currying-2?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00462-extreme-currying-2",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9fd4892ee318000086c36c0caf3459109c8dfef7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00462-extreme-currying-2?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9fd4892ee318000086c36c0caf3459109c8dfef7",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00462-extreme-currying-2"
+    }
+  },
+  {
+    "name": "00472-hard-tuple-to-enum-object",
+    "path": "questions/00472-hard-tuple-to-enum-object",
+    "sha": "3cd7ef4e6a6e12373d9c69936078c1bed7f92991",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00472-hard-tuple-to-enum-object?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00472-hard-tuple-to-enum-object",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3cd7ef4e6a6e12373d9c69936078c1bed7f92991",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00472-hard-tuple-to-enum-object?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3cd7ef4e6a6e12373d9c69936078c1bed7f92991",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00472-hard-tuple-to-enum-object"
+    }
+  },
+  {
+    "name": "00476-extreme-sum",
+    "path": "questions/00476-extreme-sum",
+    "sha": "b8f14d4e3b054af3773ea1581f5710298fec50ff",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00476-extreme-sum?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00476-extreme-sum",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b8f14d4e3b054af3773ea1581f5710298fec50ff",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00476-extreme-sum?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b8f14d4e3b054af3773ea1581f5710298fec50ff",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00476-extreme-sum"
+    }
+  },
+  {
+    "name": "00517-extreme-multiply",
+    "path": "questions/00517-extreme-multiply",
+    "sha": "b99362f2fb362dbefaa62397b1dad743bfe51cfa",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00517-extreme-multiply?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00517-extreme-multiply",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b99362f2fb362dbefaa62397b1dad743bfe51cfa",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00517-extreme-multiply?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b99362f2fb362dbefaa62397b1dad743bfe51cfa",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00517-extreme-multiply"
+    }
+  },
+  {
+    "name": "00527-medium-append-to-object",
+    "path": "questions/00527-medium-append-to-object",
+    "sha": "cf7e6b63dc453735c17fab375a633fd1a18169a6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00527-medium-append-to-object?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00527-medium-append-to-object",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cf7e6b63dc453735c17fab375a633fd1a18169a6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00527-medium-append-to-object?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cf7e6b63dc453735c17fab375a633fd1a18169a6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00527-medium-append-to-object"
+    }
+  },
+  {
+    "name": "00529-medium-absolute",
+    "path": "questions/00529-medium-absolute",
+    "sha": "069b3b7e0e1e70db296b3946b6fffe0812f1b71b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00529-medium-absolute?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00529-medium-absolute",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/069b3b7e0e1e70db296b3946b6fffe0812f1b71b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00529-medium-absolute?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/069b3b7e0e1e70db296b3946b6fffe0812f1b71b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00529-medium-absolute"
+    }
+  },
+  {
+    "name": "00531-medium-string-to-union",
+    "path": "questions/00531-medium-string-to-union",
+    "sha": "7a0274a303868ac18c9c72d28473d9d83490c67c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00531-medium-string-to-union?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00531-medium-string-to-union",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7a0274a303868ac18c9c72d28473d9d83490c67c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00531-medium-string-to-union?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7a0274a303868ac18c9c72d28473d9d83490c67c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00531-medium-string-to-union"
+    }
+  },
+  {
+    "name": "00533-easy-concat",
+    "path": "questions/00533-easy-concat",
+    "sha": "b18406ab947b727d5cbdde766aca53c973726d74",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00533-easy-concat?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00533-easy-concat",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b18406ab947b727d5cbdde766aca53c973726d74",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00533-easy-concat?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b18406ab947b727d5cbdde766aca53c973726d74",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00533-easy-concat"
+    }
+  },
+  {
+    "name": "00545-hard-printf",
+    "path": "questions/00545-hard-printf",
+    "sha": "8561759fbae9724cc4eee1954d0b0ae0abc86cd9",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00545-hard-printf?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00545-hard-printf",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8561759fbae9724cc4eee1954d0b0ae0abc86cd9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00545-hard-printf?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8561759fbae9724cc4eee1954d0b0ae0abc86cd9",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00545-hard-printf"
+    }
+  },
+  {
+    "name": "00553-hard-deep-object-to-unique",
+    "path": "questions/00553-hard-deep-object-to-unique",
+    "sha": "9e095401234fff69e1630f699dfd261dc87c6dbe",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00553-hard-deep-object-to-unique?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00553-hard-deep-object-to-unique",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9e095401234fff69e1630f699dfd261dc87c6dbe",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00553-hard-deep-object-to-unique?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9e095401234fff69e1630f699dfd261dc87c6dbe",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00553-hard-deep-object-to-unique"
+    }
+  },
+  {
+    "name": "00599-medium-merge",
+    "path": "questions/00599-medium-merge",
+    "sha": "5c0a82eaa9c72bba9946e019aab8d584adbc3476",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00599-medium-merge?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00599-medium-merge",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5c0a82eaa9c72bba9946e019aab8d584adbc3476",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00599-medium-merge?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5c0a82eaa9c72bba9946e019aab8d584adbc3476",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00599-medium-merge"
+    }
+  },
+  {
+    "name": "00612-medium-kebabcase",
+    "path": "questions/00612-medium-kebabcase",
+    "sha": "0fc98e5892a216f659e08b9b9a4b413560a2dbac",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00612-medium-kebabcase?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00612-medium-kebabcase",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0fc98e5892a216f659e08b9b9a4b413560a2dbac",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00612-medium-kebabcase?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0fc98e5892a216f659e08b9b9a4b413560a2dbac",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00612-medium-kebabcase"
+    }
+  },
+  {
+    "name": "00645-medium-diff",
+    "path": "questions/00645-medium-diff",
+    "sha": "5454cc45acf532590a779211bd03be41a662fe6e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00645-medium-diff?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00645-medium-diff",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5454cc45acf532590a779211bd03be41a662fe6e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00645-medium-diff?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5454cc45acf532590a779211bd03be41a662fe6e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00645-medium-diff"
+    }
+  },
+  {
+    "name": "00651-hard-length-of-string-2",
+    "path": "questions/00651-hard-length-of-string-2",
+    "sha": "ea62490e8b313c0a05386530a9bda5bb5b20ef14",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00651-hard-length-of-string-2?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00651-hard-length-of-string-2",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ea62490e8b313c0a05386530a9bda5bb5b20ef14",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00651-hard-length-of-string-2?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ea62490e8b313c0a05386530a9bda5bb5b20ef14",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00651-hard-length-of-string-2"
+    }
+  },
+  {
+    "name": "00697-extreme-tag",
+    "path": "questions/00697-extreme-tag",
+    "sha": "9715529ef158eb736417d9049099e39ab68b0bfe",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00697-extreme-tag?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00697-extreme-tag",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9715529ef158eb736417d9049099e39ab68b0bfe",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00697-extreme-tag?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9715529ef158eb736417d9049099e39ab68b0bfe",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00697-extreme-tag"
+    }
+  },
+  {
+    "name": "00730-hard-union-to-tuple",
+    "path": "questions/00730-hard-union-to-tuple",
+    "sha": "372c97df3fc547d2d9715e6cdd4199a22c233461",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00730-hard-union-to-tuple?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00730-hard-union-to-tuple",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/372c97df3fc547d2d9715e6cdd4199a22c233461",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00730-hard-union-to-tuple?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/372c97df3fc547d2d9715e6cdd4199a22c233461",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00730-hard-union-to-tuple"
+    }
+  },
+  {
+    "name": "00734-extreme-inclusive-range",
+    "path": "questions/00734-extreme-inclusive-range",
+    "sha": "7c13da7869dd58a7f09c03bc3e807dbf95da11aa",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00734-extreme-inclusive-range?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00734-extreme-inclusive-range",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7c13da7869dd58a7f09c03bc3e807dbf95da11aa",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00734-extreme-inclusive-range?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7c13da7869dd58a7f09c03bc3e807dbf95da11aa",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00734-extreme-inclusive-range"
+    }
+  },
+  {
+    "name": "00741-extreme-sort",
+    "path": "questions/00741-extreme-sort",
+    "sha": "c75e19b78c8272bd06aab257ea93057bedc33097",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00741-extreme-sort?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00741-extreme-sort",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c75e19b78c8272bd06aab257ea93057bedc33097",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00741-extreme-sort?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c75e19b78c8272bd06aab257ea93057bedc33097",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00741-extreme-sort"
+    }
+  },
+  {
+    "name": "00847-hard-string-join",
+    "path": "questions/00847-hard-string-join",
+    "sha": "d4bcc2773e2031d4d44033b32c5ca5883f533218",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00847-hard-string-join?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00847-hard-string-join",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d4bcc2773e2031d4d44033b32c5ca5883f533218",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00847-hard-string-join?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d4bcc2773e2031d4d44033b32c5ca5883f533218",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00847-hard-string-join"
+    }
+  },
+  {
+    "name": "00869-extreme-distributeunions",
+    "path": "questions/00869-extreme-distributeunions",
+    "sha": "c89dfb2cfaca890ecb8de352a30aa0758730bd95",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00869-extreme-distributeunions?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00869-extreme-distributeunions",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c89dfb2cfaca890ecb8de352a30aa0758730bd95",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00869-extreme-distributeunions?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c89dfb2cfaca890ecb8de352a30aa0758730bd95",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00869-extreme-distributeunions"
+    }
+  },
+  {
+    "name": "00898-easy-includes",
+    "path": "questions/00898-easy-includes",
+    "sha": "0f75b7c2c42e2328b031db12b4decd5e8df9ee3b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00898-easy-includes?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00898-easy-includes",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0f75b7c2c42e2328b031db12b4decd5e8df9ee3b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00898-easy-includes?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0f75b7c2c42e2328b031db12b4decd5e8df9ee3b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00898-easy-includes"
+    }
+  },
+  {
+    "name": "00925-extreme-assert-array-index",
+    "path": "questions/00925-extreme-assert-array-index",
+    "sha": "a1e045a998a56e23a0d2fb79a905d123201ef9c2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00925-extreme-assert-array-index?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00925-extreme-assert-array-index",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a1e045a998a56e23a0d2fb79a905d123201ef9c2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00925-extreme-assert-array-index?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a1e045a998a56e23a0d2fb79a905d123201ef9c2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00925-extreme-assert-array-index"
+    }
+  },
+  {
+    "name": "00949-medium-anyof",
+    "path": "questions/00949-medium-anyof",
+    "sha": "d6c85ab3a74e147ff7886e51902d65d0a0f0b6dd",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00949-medium-anyof?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00949-medium-anyof",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d6c85ab3a74e147ff7886e51902d65d0a0f0b6dd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00949-medium-anyof?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d6c85ab3a74e147ff7886e51902d65d0a0f0b6dd",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00949-medium-anyof"
+    }
+  },
+  {
+    "name": "00956-hard-deeppick",
+    "path": "questions/00956-hard-deeppick",
+    "sha": "59fce4ce48e5be153d2d96fde78efe382d9185c6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00956-hard-deeppick?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/00956-hard-deeppick",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/59fce4ce48e5be153d2d96fde78efe382d9185c6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/00956-hard-deeppick?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/59fce4ce48e5be153d2d96fde78efe382d9185c6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/00956-hard-deeppick"
+    }
+  },
+  {
+    "name": "01042-medium-isnever",
+    "path": "questions/01042-medium-isnever",
+    "sha": "02fdef803c4d0e6e03e00ad0f15db24167439dfb",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01042-medium-isnever?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01042-medium-isnever",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/02fdef803c4d0e6e03e00ad0f15db24167439dfb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01042-medium-isnever?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/02fdef803c4d0e6e03e00ad0f15db24167439dfb",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01042-medium-isnever"
+    }
+  },
+  {
+    "name": "01097-medium-isunion",
+    "path": "questions/01097-medium-isunion",
+    "sha": "13f647bbbca4277927ac96689dcef4847f7d342b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01097-medium-isunion?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01097-medium-isunion",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/13f647bbbca4277927ac96689dcef4847f7d342b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01097-medium-isunion?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/13f647bbbca4277927ac96689dcef4847f7d342b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01097-medium-isunion"
+    }
+  },
+  {
+    "name": "01130-medium-replacekeys",
+    "path": "questions/01130-medium-replacekeys",
+    "sha": "14b9e32dedfc63a12dbbb38b44309f4bbdf92b1d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01130-medium-replacekeys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01130-medium-replacekeys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/14b9e32dedfc63a12dbbb38b44309f4bbdf92b1d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01130-medium-replacekeys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/14b9e32dedfc63a12dbbb38b44309f4bbdf92b1d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01130-medium-replacekeys"
+    }
+  },
+  {
+    "name": "01290-hard-pinia",
+    "path": "questions/01290-hard-pinia",
+    "sha": "fb571dc6d78f1b59ac1bbb2074aeb4d3141768e4",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01290-hard-pinia?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01290-hard-pinia",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fb571dc6d78f1b59ac1bbb2074aeb4d3141768e4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01290-hard-pinia?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fb571dc6d78f1b59ac1bbb2074aeb4d3141768e4",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01290-hard-pinia"
+    }
+  },
+  {
+    "name": "01367-medium-remove-index-signature",
+    "path": "questions/01367-medium-remove-index-signature",
+    "sha": "9784ab5f6eabfcfb54f20b17efde7588b735ec9c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01367-medium-remove-index-signature?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01367-medium-remove-index-signature",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9784ab5f6eabfcfb54f20b17efde7588b735ec9c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01367-medium-remove-index-signature?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9784ab5f6eabfcfb54f20b17efde7588b735ec9c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01367-medium-remove-index-signature"
+    }
+  },
+  {
+    "name": "01383-hard-camelize",
+    "path": "questions/01383-hard-camelize",
+    "sha": "a0f43f35c3c88d40908e364335701d2035ab6db2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01383-hard-camelize?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01383-hard-camelize",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a0f43f35c3c88d40908e364335701d2035ab6db2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01383-hard-camelize?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a0f43f35c3c88d40908e364335701d2035ab6db2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01383-hard-camelize"
+    }
+  },
+  {
+    "name": "01978-medium-percentage-parser",
+    "path": "questions/01978-medium-percentage-parser",
+    "sha": "2e3b10f4fc4c59ec654082d3a564ba5b3b6a1212",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01978-medium-percentage-parser?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/01978-medium-percentage-parser",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2e3b10f4fc4c59ec654082d3a564ba5b3b6a1212",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/01978-medium-percentage-parser?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2e3b10f4fc4c59ec654082d3a564ba5b3b6a1212",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/01978-medium-percentage-parser"
+    }
+  },
+  {
+    "name": "02059-hard-drop-string",
+    "path": "questions/02059-hard-drop-string",
+    "sha": "57d08292b45a2d7cee12760ff3df041aee3f77f4",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02059-hard-drop-string?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02059-hard-drop-string",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/57d08292b45a2d7cee12760ff3df041aee3f77f4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02059-hard-drop-string?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/57d08292b45a2d7cee12760ff3df041aee3f77f4",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02059-hard-drop-string"
+    }
+  },
+  {
+    "name": "02070-medium-drop-char",
+    "path": "questions/02070-medium-drop-char",
+    "sha": "8a3c49b601a0a9401c3ab397f7df89f9c26c3122",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02070-medium-drop-char?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02070-medium-drop-char",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8a3c49b601a0a9401c3ab397f7df89f9c26c3122",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02070-medium-drop-char?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8a3c49b601a0a9401c3ab397f7df89f9c26c3122",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02070-medium-drop-char"
+    }
+  },
+  {
+    "name": "02257-medium-minusone",
+    "path": "questions/02257-medium-minusone",
+    "sha": "d8cda99b15a160821cab66cea2306cbaf090c0d5",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02257-medium-minusone?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02257-medium-minusone",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d8cda99b15a160821cab66cea2306cbaf090c0d5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02257-medium-minusone?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d8cda99b15a160821cab66cea2306cbaf090c0d5",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02257-medium-minusone"
+    }
+  },
+  {
+    "name": "02595-medium-pickbytype",
+    "path": "questions/02595-medium-pickbytype",
+    "sha": "9a920b7d3068fdffee8621fd39cfd8cf81468439",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02595-medium-pickbytype?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02595-medium-pickbytype",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9a920b7d3068fdffee8621fd39cfd8cf81468439",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02595-medium-pickbytype?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9a920b7d3068fdffee8621fd39cfd8cf81468439",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02595-medium-pickbytype"
+    }
+  },
+  {
+    "name": "02688-medium-startswith",
+    "path": "questions/02688-medium-startswith",
+    "sha": "fd5fb8bbb61efb11624cfdfc81bf821152ba9698",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02688-medium-startswith?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02688-medium-startswith",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fd5fb8bbb61efb11624cfdfc81bf821152ba9698",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02688-medium-startswith?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fd5fb8bbb61efb11624cfdfc81bf821152ba9698",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02688-medium-startswith"
+    }
+  },
+  {
+    "name": "02693-medium-endswith",
+    "path": "questions/02693-medium-endswith",
+    "sha": "3051398df100b1cd39a5c4cbad5a67ac13a42e9b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02693-medium-endswith?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02693-medium-endswith",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3051398df100b1cd39a5c4cbad5a67ac13a42e9b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02693-medium-endswith?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3051398df100b1cd39a5c4cbad5a67ac13a42e9b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02693-medium-endswith"
+    }
+  },
+  {
+    "name": "02757-medium-partialbykeys",
+    "path": "questions/02757-medium-partialbykeys",
+    "sha": "45bb53095c54b363e2a6df905536ec6a4b60b2d7",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02757-medium-partialbykeys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02757-medium-partialbykeys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/45bb53095c54b363e2a6df905536ec6a4b60b2d7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02757-medium-partialbykeys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/45bb53095c54b363e2a6df905536ec6a4b60b2d7",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02757-medium-partialbykeys"
+    }
+  },
+  {
+    "name": "02759-medium-requiredbykeys",
+    "path": "questions/02759-medium-requiredbykeys",
+    "sha": "dd0f78d334a763097e0d86f91612b32f6921651b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02759-medium-requiredbykeys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02759-medium-requiredbykeys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/dd0f78d334a763097e0d86f91612b32f6921651b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02759-medium-requiredbykeys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/dd0f78d334a763097e0d86f91612b32f6921651b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02759-medium-requiredbykeys"
+    }
+  },
+  {
+    "name": "02793-medium-mutable",
+    "path": "questions/02793-medium-mutable",
+    "sha": "d23e78450bbff49770ac8136ed52d53a4e2847fe",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02793-medium-mutable?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02793-medium-mutable",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d23e78450bbff49770ac8136ed52d53a4e2847fe",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02793-medium-mutable?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d23e78450bbff49770ac8136ed52d53a4e2847fe",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02793-medium-mutable"
+    }
+  },
+  {
+    "name": "02822-hard-split",
+    "path": "questions/02822-hard-split",
+    "sha": "ad73758b3f56a868c18216a8056f61d00f3b0b83",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02822-hard-split?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02822-hard-split",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ad73758b3f56a868c18216a8056f61d00f3b0b83",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02822-hard-split?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ad73758b3f56a868c18216a8056f61d00f3b0b83",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02822-hard-split"
+    }
+  },
+  {
+    "name": "02828-hard-classpublickeys",
+    "path": "questions/02828-hard-classpublickeys",
+    "sha": "76134e8e00525fb66edd814d1bac7a4a53be2d0a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02828-hard-classpublickeys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02828-hard-classpublickeys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/76134e8e00525fb66edd814d1bac7a4a53be2d0a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02828-hard-classpublickeys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/76134e8e00525fb66edd814d1bac7a4a53be2d0a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02828-hard-classpublickeys"
+    }
+  },
+  {
+    "name": "02852-medium-omitbytype",
+    "path": "questions/02852-medium-omitbytype",
+    "sha": "1c3b10aa77a82b4e769dec7e44ed2d77bb0ef2dc",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02852-medium-omitbytype?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02852-medium-omitbytype",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/1c3b10aa77a82b4e769dec7e44ed2d77bb0ef2dc",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02852-medium-omitbytype?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/1c3b10aa77a82b4e769dec7e44ed2d77bb0ef2dc",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02852-medium-omitbytype"
+    }
+  },
+  {
+    "name": "02857-hard-isrequiredkey",
+    "path": "questions/02857-hard-isrequiredkey",
+    "sha": "87e005299138d66c21e3a8c9de8431c291dffe49",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02857-hard-isrequiredkey?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02857-hard-isrequiredkey",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/87e005299138d66c21e3a8c9de8431c291dffe49",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02857-hard-isrequiredkey?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/87e005299138d66c21e3a8c9de8431c291dffe49",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02857-hard-isrequiredkey"
+    }
+  },
+  {
+    "name": "02946-medium-objectentries",
+    "path": "questions/02946-medium-objectentries",
+    "sha": "8cbe829ba0828a2ea1686d423b1347f02ca1f75a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02946-medium-objectentries?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02946-medium-objectentries",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8cbe829ba0828a2ea1686d423b1347f02ca1f75a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02946-medium-objectentries?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8cbe829ba0828a2ea1686d423b1347f02ca1f75a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02946-medium-objectentries"
+    }
+  },
+  {
+    "name": "02949-hard-objectfromentries",
+    "path": "questions/02949-hard-objectfromentries",
+    "sha": "c0e56fbc00575950db94402b0e48afd8ed02a582",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02949-hard-objectfromentries?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/02949-hard-objectfromentries",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c0e56fbc00575950db94402b0e48afd8ed02a582",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/02949-hard-objectfromentries?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c0e56fbc00575950db94402b0e48afd8ed02a582",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/02949-hard-objectfromentries"
+    }
+  },
+  {
+    "name": "03057-easy-push",
+    "path": "questions/03057-easy-push",
+    "sha": "a2c27b3b6050a29ee127694d4a8825422b58c798",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03057-easy-push?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03057-easy-push",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a2c27b3b6050a29ee127694d4a8825422b58c798",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03057-easy-push?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a2c27b3b6050a29ee127694d4a8825422b58c798",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03057-easy-push"
+    }
+  },
+  {
+    "name": "03060-easy-unshift",
+    "path": "questions/03060-easy-unshift",
+    "sha": "85c5fb194652a690ac28e29bc63ba359addaacce",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03060-easy-unshift?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03060-easy-unshift",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/85c5fb194652a690ac28e29bc63ba359addaacce",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03060-easy-unshift?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/85c5fb194652a690ac28e29bc63ba359addaacce",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03060-easy-unshift"
+    }
+  },
+  {
+    "name": "03062-medium-shift",
+    "path": "questions/03062-medium-shift",
+    "sha": "3a83e4c3e075fe43b5682577609acddce079830c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03062-medium-shift?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03062-medium-shift",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3a83e4c3e075fe43b5682577609acddce079830c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03062-medium-shift?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3a83e4c3e075fe43b5682577609acddce079830c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03062-medium-shift"
+    }
+  },
+  {
+    "name": "03188-medium-tuple-to-nested-object",
+    "path": "questions/03188-medium-tuple-to-nested-object",
+    "sha": "6b13984bb6a72b80739195178296c1837c1a2d39",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03188-medium-tuple-to-nested-object?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03188-medium-tuple-to-nested-object",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/6b13984bb6a72b80739195178296c1837c1a2d39",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03188-medium-tuple-to-nested-object?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/6b13984bb6a72b80739195178296c1837c1a2d39",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03188-medium-tuple-to-nested-object"
+    }
+  },
+  {
+    "name": "03192-medium-reverse",
+    "path": "questions/03192-medium-reverse",
+    "sha": "cd95cbaade9cec51908d45a7ff13163a551d39f5",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03192-medium-reverse?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03192-medium-reverse",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cd95cbaade9cec51908d45a7ff13163a551d39f5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03192-medium-reverse?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cd95cbaade9cec51908d45a7ff13163a551d39f5",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03192-medium-reverse"
+    }
+  },
+  {
+    "name": "03196-medium-flip-arguments",
+    "path": "questions/03196-medium-flip-arguments",
+    "sha": "8d2e15d5c8296b8dedfbd8e89316fac1c195ff2f",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03196-medium-flip-arguments?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03196-medium-flip-arguments",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8d2e15d5c8296b8dedfbd8e89316fac1c195ff2f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03196-medium-flip-arguments?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8d2e15d5c8296b8dedfbd8e89316fac1c195ff2f",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03196-medium-flip-arguments"
+    }
+  },
+  {
+    "name": "03243-medium-flattendepth",
+    "path": "questions/03243-medium-flattendepth",
+    "sha": "03b2e4ffa87251ecdc4be826154564cab1a25b05",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03243-medium-flattendepth?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03243-medium-flattendepth",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/03b2e4ffa87251ecdc4be826154564cab1a25b05",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03243-medium-flattendepth?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/03b2e4ffa87251ecdc4be826154564cab1a25b05",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03243-medium-flattendepth"
+    }
+  },
+  {
+    "name": "03312-easy-parameters",
+    "path": "questions/03312-easy-parameters",
+    "sha": "fd098f243c90201a3655b21d830a2dd09da8c834",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03312-easy-parameters?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03312-easy-parameters",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fd098f243c90201a3655b21d830a2dd09da8c834",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03312-easy-parameters?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fd098f243c90201a3655b21d830a2dd09da8c834",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03312-easy-parameters"
+    }
+  },
+  {
+    "name": "03326-medium-bem-style-string",
+    "path": "questions/03326-medium-bem-style-string",
+    "sha": "c95b0cea082eb2703df96946a9875889d4179750",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03326-medium-bem-style-string?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03326-medium-bem-style-string",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c95b0cea082eb2703df96946a9875889d4179750",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03326-medium-bem-style-string?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c95b0cea082eb2703df96946a9875889d4179750",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03326-medium-bem-style-string"
+    }
+  },
+  {
+    "name": "03376-medium-inordertraversal",
+    "path": "questions/03376-medium-inordertraversal",
+    "sha": "888f4e8307565ce5751f573b690d61c93d32896e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03376-medium-inordertraversal?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/03376-medium-inordertraversal",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/888f4e8307565ce5751f573b690d61c93d32896e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/03376-medium-inordertraversal?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/888f4e8307565ce5751f573b690d61c93d32896e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/03376-medium-inordertraversal"
+    }
+  },
+  {
+    "name": "04037-hard-ispalindrome",
+    "path": "questions/04037-hard-ispalindrome",
+    "sha": "87f7e19cf67d847c603e6954d28377736c3ca139",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04037-hard-ispalindrome?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04037-hard-ispalindrome",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/87f7e19cf67d847c603e6954d28377736c3ca139",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04037-hard-ispalindrome?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/87f7e19cf67d847c603e6954d28377736c3ca139",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04037-hard-ispalindrome"
+    }
+  },
+  {
+    "name": "04179-medium-flip",
+    "path": "questions/04179-medium-flip",
+    "sha": "a3cf487190fbaf6737c613fd33188433e9842968",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04179-medium-flip?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04179-medium-flip",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a3cf487190fbaf6737c613fd33188433e9842968",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04179-medium-flip?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a3cf487190fbaf6737c613fd33188433e9842968",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04179-medium-flip"
+    }
+  },
+  {
+    "name": "04182-medium-fibonacci-sequence",
+    "path": "questions/04182-medium-fibonacci-sequence",
+    "sha": "839cfeea627bf4a8ec440c13f08cafb959f94dbd",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04182-medium-fibonacci-sequence?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04182-medium-fibonacci-sequence",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/839cfeea627bf4a8ec440c13f08cafb959f94dbd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04182-medium-fibonacci-sequence?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/839cfeea627bf4a8ec440c13f08cafb959f94dbd",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04182-medium-fibonacci-sequence"
+    }
+  },
+  {
+    "name": "04260-medium-nomiwase",
+    "path": "questions/04260-medium-nomiwase",
+    "sha": "149c9a16e545f11dba2a40d8c19d663cfd3f7e43",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04260-medium-nomiwase?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04260-medium-nomiwase",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/149c9a16e545f11dba2a40d8c19d663cfd3f7e43",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04260-medium-nomiwase?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/149c9a16e545f11dba2a40d8c19d663cfd3f7e43",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04260-medium-nomiwase"
+    }
+  },
+  {
+    "name": "04425-medium-greater-than",
+    "path": "questions/04425-medium-greater-than",
+    "sha": "3f3a3626e5f67de8101f92bd9b9d4f58a7046ccb",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04425-medium-greater-than?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04425-medium-greater-than",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3f3a3626e5f67de8101f92bd9b9d4f58a7046ccb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04425-medium-greater-than?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3f3a3626e5f67de8101f92bd9b9d4f58a7046ccb",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04425-medium-greater-than"
+    }
+  },
+  {
+    "name": "04471-medium-zip",
+    "path": "questions/04471-medium-zip",
+    "sha": "e9d7c45d898dfb02655760faf200210f4ce12fbc",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04471-medium-zip?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04471-medium-zip",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e9d7c45d898dfb02655760faf200210f4ce12fbc",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04471-medium-zip?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e9d7c45d898dfb02655760faf200210f4ce12fbc",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04471-medium-zip"
+    }
+  },
+  {
+    "name": "04484-medium-istuple",
+    "path": "questions/04484-medium-istuple",
+    "sha": "b60896cfcbd457e50c3da156df89606b7bcc5c1e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04484-medium-istuple?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04484-medium-istuple",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b60896cfcbd457e50c3da156df89606b7bcc5c1e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04484-medium-istuple?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b60896cfcbd457e50c3da156df89606b7bcc5c1e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04484-medium-istuple"
+    }
+  },
+  {
+    "name": "04499-medium-chunk",
+    "path": "questions/04499-medium-chunk",
+    "sha": "5fe0651f6d91fb339059cd9421bfc6034e741d8c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04499-medium-chunk?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04499-medium-chunk",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5fe0651f6d91fb339059cd9421bfc6034e741d8c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04499-medium-chunk?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5fe0651f6d91fb339059cd9421bfc6034e741d8c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04499-medium-chunk"
+    }
+  },
+  {
+    "name": "04518-medium-fill",
+    "path": "questions/04518-medium-fill",
+    "sha": "2fafaa3778939a6daba2ca65a4b3aa9abe041f00",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04518-medium-fill?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04518-medium-fill",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2fafaa3778939a6daba2ca65a4b3aa9abe041f00",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04518-medium-fill?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2fafaa3778939a6daba2ca65a4b3aa9abe041f00",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04518-medium-fill"
+    }
+  },
+  {
+    "name": "04803-medium-trim-right",
+    "path": "questions/04803-medium-trim-right",
+    "sha": "5c353b709053a433cfe63dae417b24c65efa5d96",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04803-medium-trim-right?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/04803-medium-trim-right",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5c353b709053a433cfe63dae417b24c65efa5d96",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/04803-medium-trim-right?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5c353b709053a433cfe63dae417b24c65efa5d96",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/04803-medium-trim-right"
+    }
+  },
+  {
+    "name": "05117-medium-without",
+    "path": "questions/05117-medium-without",
+    "sha": "e4823c706b1a55c1f176296bc6d5366f8fa99759",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05117-medium-without?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05117-medium-without",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e4823c706b1a55c1f176296bc6d5366f8fa99759",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05117-medium-without?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e4823c706b1a55c1f176296bc6d5366f8fa99759",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05117-medium-without"
+    }
+  },
+  {
+    "name": "05140-medium-trunc",
+    "path": "questions/05140-medium-trunc",
+    "sha": "0ae9a51be2620782c78432dea095baa01acf53fa",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05140-medium-trunc?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05140-medium-trunc",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0ae9a51be2620782c78432dea095baa01acf53fa",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05140-medium-trunc?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0ae9a51be2620782c78432dea095baa01acf53fa",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05140-medium-trunc"
+    }
+  },
+  {
+    "name": "05153-medium-indexof",
+    "path": "questions/05153-medium-indexof",
+    "sha": "90437c101140e467365c177ff7e061d617f50751",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05153-medium-indexof?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05153-medium-indexof",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/90437c101140e467365c177ff7e061d617f50751",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05153-medium-indexof?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/90437c101140e467365c177ff7e061d617f50751",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05153-medium-indexof"
+    }
+  },
+  {
+    "name": "05181-hard-mutable-keys",
+    "path": "questions/05181-hard-mutable-keys",
+    "sha": "cc778b6571455c8a1a76e7623a779721edfd884b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05181-hard-mutable-keys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05181-hard-mutable-keys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cc778b6571455c8a1a76e7623a779721edfd884b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05181-hard-mutable-keys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/cc778b6571455c8a1a76e7623a779721edfd884b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05181-hard-mutable-keys"
+    }
+  },
+  {
+    "name": "05310-medium-join",
+    "path": "questions/05310-medium-join",
+    "sha": "276aedc85bb392427aa11c42630d3642a282eecd",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05310-medium-join?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05310-medium-join",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/276aedc85bb392427aa11c42630d3642a282eecd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05310-medium-join?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/276aedc85bb392427aa11c42630d3642a282eecd",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05310-medium-join"
+    }
+  },
+  {
+    "name": "05317-medium-lastindexof",
+    "path": "questions/05317-medium-lastindexof",
+    "sha": "4da67c027b3ffa7a68b99ce39816dbda6074aaf9",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05317-medium-lastindexof?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05317-medium-lastindexof",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/4da67c027b3ffa7a68b99ce39816dbda6074aaf9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05317-medium-lastindexof?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/4da67c027b3ffa7a68b99ce39816dbda6074aaf9",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05317-medium-lastindexof"
+    }
+  },
+  {
+    "name": "05360-medium-unique",
+    "path": "questions/05360-medium-unique",
+    "sha": "10da374abdf35a0becb7bd91571bc947ba83c43a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05360-medium-unique?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05360-medium-unique",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/10da374abdf35a0becb7bd91571bc947ba83c43a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05360-medium-unique?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/10da374abdf35a0becb7bd91571bc947ba83c43a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05360-medium-unique"
+    }
+  },
+  {
+    "name": "05423-hard-intersection",
+    "path": "questions/05423-hard-intersection",
+    "sha": "3d244a686c79fd344e2993ce13c6606acd0f1a0b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05423-hard-intersection?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05423-hard-intersection",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3d244a686c79fd344e2993ce13c6606acd0f1a0b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05423-hard-intersection?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3d244a686c79fd344e2993ce13c6606acd0f1a0b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05423-hard-intersection"
+    }
+  },
+  {
+    "name": "05821-medium-maptypes",
+    "path": "questions/05821-medium-maptypes",
+    "sha": "1c77d6d19f111256ab909eacf5e85c9819c309b2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05821-medium-maptypes?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/05821-medium-maptypes",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/1c77d6d19f111256ab909eacf5e85c9819c309b2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/05821-medium-maptypes?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/1c77d6d19f111256ab909eacf5e85c9819c309b2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/05821-medium-maptypes"
+    }
+  },
+  {
+    "name": "06141-hard-binary-to-decimal",
+    "path": "questions/06141-hard-binary-to-decimal",
+    "sha": "fd196fce750c952cd98bae4831f5ba088d4fb799",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/06141-hard-binary-to-decimal?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/06141-hard-binary-to-decimal",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fd196fce750c952cd98bae4831f5ba088d4fb799",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/06141-hard-binary-to-decimal?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fd196fce750c952cd98bae4831f5ba088d4fb799",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/06141-hard-binary-to-decimal"
+    }
+  },
+  {
+    "name": "06228-extreme-json-parser",
+    "path": "questions/06228-extreme-json-parser",
+    "sha": "9d993034074a71d0f88873c64a41f2554f934bd7",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/06228-extreme-json-parser?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/06228-extreme-json-parser",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9d993034074a71d0f88873c64a41f2554f934bd7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/06228-extreme-json-parser?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9d993034074a71d0f88873c64a41f2554f934bd7",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/06228-extreme-json-parser"
+    }
+  },
+  {
+    "name": "07258-hard-object-key-paths",
+    "path": "questions/07258-hard-object-key-paths",
+    "sha": "d6e23edf4e23a2a2fc9c45be10385041dea0e678",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/07258-hard-object-key-paths?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/07258-hard-object-key-paths",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d6e23edf4e23a2a2fc9c45be10385041dea0e678",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/07258-hard-object-key-paths?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d6e23edf4e23a2a2fc9c45be10385041dea0e678",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/07258-hard-object-key-paths"
+    }
+  },
+  {
+    "name": "07544-medium-construct-tuple",
+    "path": "questions/07544-medium-construct-tuple",
+    "sha": "ad4de863baa7d4b6806af251ef0eca8ad1997bf5",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/07544-medium-construct-tuple?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/07544-medium-construct-tuple",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ad4de863baa7d4b6806af251ef0eca8ad1997bf5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/07544-medium-construct-tuple?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ad4de863baa7d4b6806af251ef0eca8ad1997bf5",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/07544-medium-construct-tuple"
+    }
+  },
+  {
+    "name": "07561-extreme-subtract",
+    "path": "questions/07561-extreme-subtract",
+    "sha": "afb542695f226f71030fa684b8c89ab438398a83",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/07561-extreme-subtract?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/07561-extreme-subtract",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/afb542695f226f71030fa684b8c89ab438398a83",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/07561-extreme-subtract?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/afb542695f226f71030fa684b8c89ab438398a83",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/07561-extreme-subtract"
+    }
+  },
+  {
+    "name": "08640-medium-number-range",
+    "path": "questions/08640-medium-number-range",
+    "sha": "24c49b05e107682f93bdbe2e694219eef5e04d59",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08640-medium-number-range?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/08640-medium-number-range",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/24c49b05e107682f93bdbe2e694219eef5e04d59",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08640-medium-number-range?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/24c49b05e107682f93bdbe2e694219eef5e04d59",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/08640-medium-number-range"
+    }
+  },
+  {
+    "name": "08767-medium-combination",
+    "path": "questions/08767-medium-combination",
+    "sha": "c8cabcc0702e0c2df7ddb2eaddea1a098fd299bb",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08767-medium-combination?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/08767-medium-combination",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c8cabcc0702e0c2df7ddb2eaddea1a098fd299bb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08767-medium-combination?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/c8cabcc0702e0c2df7ddb2eaddea1a098fd299bb",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/08767-medium-combination"
+    }
+  },
+  {
+    "name": "08804-hard-two-sum",
+    "path": "questions/08804-hard-two-sum",
+    "sha": "7cdd91cb6c015a41c0191dc45bdebea2179401e2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08804-hard-two-sum?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/08804-hard-two-sum",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7cdd91cb6c015a41c0191dc45bdebea2179401e2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08804-hard-two-sum?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7cdd91cb6c015a41c0191dc45bdebea2179401e2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/08804-hard-two-sum"
+    }
+  },
+  {
+    "name": "08987-medium-subsequence",
+    "path": "questions/08987-medium-subsequence",
+    "sha": "642026e58685fcd32682369e1b3e62fe926b399c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08987-medium-subsequence?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/08987-medium-subsequence",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/642026e58685fcd32682369e1b3e62fe926b399c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/08987-medium-subsequence?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/642026e58685fcd32682369e1b3e62fe926b399c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/08987-medium-subsequence"
+    }
+  },
+  {
+    "name": "09142-medium-checkrepeatedchars",
+    "path": "questions/09142-medium-checkrepeatedchars",
+    "sha": "0d85957e6e34c885c9419224050105bfa24396d4",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09142-medium-checkrepeatedchars?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09142-medium-checkrepeatedchars",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0d85957e6e34c885c9419224050105bfa24396d4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09142-medium-checkrepeatedchars?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0d85957e6e34c885c9419224050105bfa24396d4",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09142-medium-checkrepeatedchars"
+    }
+  },
+  {
+    "name": "09155-hard-validdate",
+    "path": "questions/09155-hard-validdate",
+    "sha": "61bddd8bb662558aaf85363129ab7d08ba5a3da6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09155-hard-validdate?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09155-hard-validdate",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/61bddd8bb662558aaf85363129ab7d08ba5a3da6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09155-hard-validdate?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/61bddd8bb662558aaf85363129ab7d08ba5a3da6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09155-hard-validdate"
+    }
+  },
+  {
+    "name": "09160-hard-assign",
+    "path": "questions/09160-hard-assign",
+    "sha": "f2cc1bcb93336e863650250f7e1d1db9fc4f86ba",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09160-hard-assign?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09160-hard-assign",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f2cc1bcb93336e863650250f7e1d1db9fc4f86ba",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09160-hard-assign?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f2cc1bcb93336e863650250f7e1d1db9fc4f86ba",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09160-hard-assign"
+    }
+  },
+  {
+    "name": "09286-medium-firstuniquecharindex",
+    "path": "questions/09286-medium-firstuniquecharindex",
+    "sha": "eab7a40bee17857db487a90d68d20a355f329ab1",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09286-medium-firstuniquecharindex?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09286-medium-firstuniquecharindex",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/eab7a40bee17857db487a90d68d20a355f329ab1",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09286-medium-firstuniquecharindex?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/eab7a40bee17857db487a90d68d20a355f329ab1",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09286-medium-firstuniquecharindex"
+    }
+  },
+  {
+    "name": "09384-hard-maximum",
+    "path": "questions/09384-hard-maximum",
+    "sha": "3ad37cb43150fe2f512958e0cc29ae356565dfeb",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09384-hard-maximum?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09384-hard-maximum",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3ad37cb43150fe2f512958e0cc29ae356565dfeb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09384-hard-maximum?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/3ad37cb43150fe2f512958e0cc29ae356565dfeb",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09384-hard-maximum"
+    }
+  },
+  {
+    "name": "09616-medium-parse-url-params",
+    "path": "questions/09616-medium-parse-url-params",
+    "sha": "7724fe10ef99ac69f688ec88d375702fedf600d0",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09616-medium-parse-url-params?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09616-medium-parse-url-params",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7724fe10ef99ac69f688ec88d375702fedf600d0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09616-medium-parse-url-params?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7724fe10ef99ac69f688ec88d375702fedf600d0",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09616-medium-parse-url-params"
+    }
+  },
+  {
+    "name": "09775-hard-capitalize-nest-object-keys",
+    "path": "questions/09775-hard-capitalize-nest-object-keys",
+    "sha": "e35653139c784b1f229ab9c9e83f344a0cdae1e2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09775-hard-capitalize-nest-object-keys?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09775-hard-capitalize-nest-object-keys",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e35653139c784b1f229ab9c9e83f344a0cdae1e2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09775-hard-capitalize-nest-object-keys?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e35653139c784b1f229ab9c9e83f344a0cdae1e2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09775-hard-capitalize-nest-object-keys"
+    }
+  },
+  {
+    "name": "09896-medium-get-middle-element",
+    "path": "questions/09896-medium-get-middle-element",
+    "sha": "bec921c76d6fd7bf5b7ea11e87ef6043d3e0aa6c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09896-medium-get-middle-element?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09896-medium-get-middle-element",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/bec921c76d6fd7bf5b7ea11e87ef6043d3e0aa6c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09896-medium-get-middle-element?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/bec921c76d6fd7bf5b7ea11e87ef6043d3e0aa6c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09896-medium-get-middle-element"
+    }
+  },
+  {
+    "name": "09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su",
+    "path": "questions/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su",
+    "sha": "45ef2ed754b968d050045a3a7dd0d959abe23fc0",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/45ef2ed754b968d050045a3a7dd0d959abe23fc0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/45ef2ed754b968d050045a3a7dd0d959abe23fc0",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su"
+    }
+  },
+  {
+    "name": "09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu",
+    "path": "questions/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu",
+    "sha": "f7739da24a41df73fda4ee1c844d3e59a81c7117",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f7739da24a41df73fda4ee1c844d3e59a81c7117",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f7739da24a41df73fda4ee1c844d3e59a81c7117",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu"
+    }
+  },
+  {
+    "name": "10969-medium-integer",
+    "path": "questions/10969-medium-integer",
+    "sha": "b9e9e94da4c66f53a676fb8c8e5b2bc8d359ae73",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/10969-medium-integer?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/10969-medium-integer",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b9e9e94da4c66f53a676fb8c8e5b2bc8d359ae73",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/10969-medium-integer?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b9e9e94da4c66f53a676fb8c8e5b2bc8d359ae73",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/10969-medium-integer"
+    }
+  },
+  {
+    "name": "13580-hard-replace-union",
+    "path": "questions/13580-hard-replace-union",
+    "sha": "a6355d2ec29209d7100715fd7376bb7e4c9cd7a7",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/13580-hard-replace-union?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/13580-hard-replace-union",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a6355d2ec29209d7100715fd7376bb7e4c9cd7a7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/13580-hard-replace-union?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a6355d2ec29209d7100715fd7376bb7e4c9cd7a7",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/13580-hard-replace-union"
+    }
+  },
+  {
+    "name": "14080-hard-fizzbuzz",
+    "path": "questions/14080-hard-fizzbuzz",
+    "sha": "989b97bbd57fa942a953374e9516a8b067c7fd76",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/14080-hard-fizzbuzz?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/14080-hard-fizzbuzz",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/989b97bbd57fa942a953374e9516a8b067c7fd76",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/14080-hard-fizzbuzz?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/989b97bbd57fa942a953374e9516a8b067c7fd76",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/14080-hard-fizzbuzz"
+    }
+  },
+  {
+    "name": "14188-hard-run-length-encoding",
+    "path": "questions/14188-hard-run-length-encoding",
+    "sha": "d7837a02b635b9942992a5444bf455a5ac313fa6",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/14188-hard-run-length-encoding?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/14188-hard-run-length-encoding",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d7837a02b635b9942992a5444bf455a5ac313fa6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/14188-hard-run-length-encoding?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d7837a02b635b9942992a5444bf455a5ac313fa6",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/14188-hard-run-length-encoding"
+    }
+  },
+  {
+    "name": "15260-hard-tree-path-array",
+    "path": "questions/15260-hard-tree-path-array",
+    "sha": "fb52d0257f912c73f4ab681634a65d32208f042c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/15260-hard-tree-path-array?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/15260-hard-tree-path-array",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fb52d0257f912c73f4ab681634a65d32208f042c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/15260-hard-tree-path-array?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fb52d0257f912c73f4ab681634a65d32208f042c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/15260-hard-tree-path-array"
+    }
+  },
+  {
+    "name": "16259-medium-to-primitive",
+    "path": "questions/16259-medium-to-primitive",
+    "sha": "9842ef72c93139cde6cea1f24617d017c861a79d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/16259-medium-to-primitive?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/16259-medium-to-primitive",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9842ef72c93139cde6cea1f24617d017c861a79d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/16259-medium-to-primitive?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9842ef72c93139cde6cea1f24617d017c861a79d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/16259-medium-to-primitive"
+    }
+  },
+  {
+    "name": "17973-medium-deepmutable",
+    "path": "questions/17973-medium-deepmutable",
+    "sha": "78852aa442bcf368a94b441c14fddf1f8c97845c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/17973-medium-deepmutable?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/17973-medium-deepmutable",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/78852aa442bcf368a94b441c14fddf1f8c97845c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/17973-medium-deepmutable?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/78852aa442bcf368a94b441c14fddf1f8c97845c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/17973-medium-deepmutable"
+    }
+  },
+  {
+    "name": "18142-medium-all",
+    "path": "questions/18142-medium-all",
+    "sha": "f9df65b5cba2fd26820f4ba5f2f3290f48c6edda",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/18142-medium-all?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/18142-medium-all",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f9df65b5cba2fd26820f4ba5f2f3290f48c6edda",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/18142-medium-all?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f9df65b5cba2fd26820f4ba5f2f3290f48c6edda",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/18142-medium-all"
+    }
+  },
+  {
+    "name": "18220-medium-filter",
+    "path": "questions/18220-medium-filter",
+    "sha": "f0b2005f97973fc03da5960897f52c50e2b2194e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/18220-medium-filter?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/18220-medium-filter",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f0b2005f97973fc03da5960897f52c50e2b2194e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/18220-medium-filter?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f0b2005f97973fc03da5960897f52c50e2b2194e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/18220-medium-filter"
+    }
+  },
+  {
+    "name": "19458-hard-snakecase",
+    "path": "questions/19458-hard-snakecase",
+    "sha": "081ab12563fc2f7762ad0a659d80331673f14759",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/19458-hard-snakecase?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/19458-hard-snakecase",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/081ab12563fc2f7762ad0a659d80331673f14759",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/19458-hard-snakecase?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/081ab12563fc2f7762ad0a659d80331673f14759",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/19458-hard-snakecase"
+    }
+  },
+  {
+    "name": "19749-medium-isequal",
+    "path": "questions/19749-medium-isequal",
+    "sha": "e7fc1e840d45aed1ffcb90a46dd5f533b531a814",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/19749-medium-isequal?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/19749-medium-isequal",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e7fc1e840d45aed1ffcb90a46dd5f533b531a814",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/19749-medium-isequal?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e7fc1e840d45aed1ffcb90a46dd5f533b531a814",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/19749-medium-isequal"
+    }
+  },
+  {
+    "name": "21104-medium-findall",
+    "path": "questions/21104-medium-findall",
+    "sha": "a53affbb92d8af1eab586a694d1c0830287f1e45",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/21104-medium-findall?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/21104-medium-findall",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a53affbb92d8af1eab586a694d1c0830287f1e45",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/21104-medium-findall?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a53affbb92d8af1eab586a694d1c0830287f1e45",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/21104-medium-findall"
+    }
+  },
+  {
+    "name": "21106-medium-zu-he-jian-lei-xing-combination-key-type",
+    "path": "questions/21106-medium-zu-he-jian-lei-xing-combination-key-type",
+    "sha": "7f6e662336aba4fff10c37bdb234eb6de539165f",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/21106-medium-zu-he-jian-lei-xing-combination-key-type?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/21106-medium-zu-he-jian-lei-xing-combination-key-type",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7f6e662336aba4fff10c37bdb234eb6de539165f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/21106-medium-zu-he-jian-lei-xing-combination-key-type?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7f6e662336aba4fff10c37bdb234eb6de539165f",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/21106-medium-zu-he-jian-lei-xing-combination-key-type"
+    }
+  },
+  {
+    "name": "21220-medium-permutations-of-tuple",
+    "path": "questions/21220-medium-permutations-of-tuple",
+    "sha": "e788c524131612756875329a8fb25c790cd0b8a9",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/21220-medium-permutations-of-tuple?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/21220-medium-permutations-of-tuple",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e788c524131612756875329a8fb25c790cd0b8a9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/21220-medium-permutations-of-tuple?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e788c524131612756875329a8fb25c790cd0b8a9",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/21220-medium-permutations-of-tuple"
+    }
+  },
+  {
+    "name": "25170-medium-replace-first",
+    "path": "questions/25170-medium-replace-first",
+    "sha": "f5b39cef6104a3a007282b2eb12d34ec208c3ec5",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/25170-medium-replace-first?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/25170-medium-replace-first",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f5b39cef6104a3a007282b2eb12d34ec208c3ec5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/25170-medium-replace-first?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/f5b39cef6104a3a007282b2eb12d34ec208c3ec5",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/25170-medium-replace-first"
+    }
+  },
+  {
+    "name": "25270-medium-transpose",
+    "path": "questions/25270-medium-transpose",
+    "sha": "abbcb7498696f631aeb6603d5d3cf188406c9894",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/25270-medium-transpose?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/25270-medium-transpose",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/abbcb7498696f631aeb6603d5d3cf188406c9894",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/25270-medium-transpose?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/abbcb7498696f631aeb6603d5d3cf188406c9894",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/25270-medium-transpose"
+    }
+  },
+  {
+    "name": "25747-hard-isnegativenumber",
+    "path": "questions/25747-hard-isnegativenumber",
+    "sha": "2373d379a5a2b7960243e8b5999f56be2da0cb09",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/25747-hard-isnegativenumber?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/25747-hard-isnegativenumber",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2373d379a5a2b7960243e8b5999f56be2da0cb09",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/25747-hard-isnegativenumber?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/2373d379a5a2b7960243e8b5999f56be2da0cb09",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/25747-hard-isnegativenumber"
+    }
+  },
+  {
+    "name": "26401-medium-json-schema-to-typescript",
+    "path": "questions/26401-medium-json-schema-to-typescript",
+    "sha": "35deff60c712162a525e36191d29813e01080093",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/26401-medium-json-schema-to-typescript?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/26401-medium-json-schema-to-typescript",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/35deff60c712162a525e36191d29813e01080093",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/26401-medium-json-schema-to-typescript?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/35deff60c712162a525e36191d29813e01080093",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/26401-medium-json-schema-to-typescript"
+    }
+  },
+  {
+    "name": "27133-medium-square",
+    "path": "questions/27133-medium-square",
+    "sha": "fbeb5e7f9810dea656bc72ab7608aa6f8b9b3d53",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27133-medium-square?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/27133-medium-square",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fbeb5e7f9810dea656bc72ab7608aa6f8b9b3d53",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27133-medium-square?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/fbeb5e7f9810dea656bc72ab7608aa6f8b9b3d53",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/27133-medium-square"
+    }
+  },
+  {
+    "name": "27152-medium-triangular-number",
+    "path": "questions/27152-medium-triangular-number",
+    "sha": "74955ab8473bb382cec651fabced25e15ab8aa59",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27152-medium-triangular-number?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/27152-medium-triangular-number",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/74955ab8473bb382cec651fabced25e15ab8aa59",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27152-medium-triangular-number?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/74955ab8473bb382cec651fabced25e15ab8aa59",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/27152-medium-triangular-number"
+    }
+  },
+  {
+    "name": "27862-medium-cartesianproduct",
+    "path": "questions/27862-medium-cartesianproduct",
+    "sha": "b0a8224d7a026fb2a8e66d7b2c0ec85be1e493ea",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27862-medium-cartesianproduct?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/27862-medium-cartesianproduct",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b0a8224d7a026fb2a8e66d7b2c0ec85be1e493ea",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27862-medium-cartesianproduct?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/b0a8224d7a026fb2a8e66d7b2c0ec85be1e493ea",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/27862-medium-cartesianproduct"
+    }
+  },
+  {
+    "name": "27932-medium-mergeall",
+    "path": "questions/27932-medium-mergeall",
+    "sha": "84d87c76a49c573b04b4299c1abf5c173cf58407",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27932-medium-mergeall?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/27932-medium-mergeall",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/84d87c76a49c573b04b4299c1abf5c173cf58407",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27932-medium-mergeall?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/84d87c76a49c573b04b4299c1abf5c173cf58407",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/27932-medium-mergeall"
+    }
+  },
+  {
+    "name": "27958-medium-checkrepeatedtuple",
+    "path": "questions/27958-medium-checkrepeatedtuple",
+    "sha": "59c3dc3c6e2bbf3273a2d8624fbad5d68dc555bf",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27958-medium-checkrepeatedtuple?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/27958-medium-checkrepeatedtuple",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/59c3dc3c6e2bbf3273a2d8624fbad5d68dc555bf",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/27958-medium-checkrepeatedtuple?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/59c3dc3c6e2bbf3273a2d8624fbad5d68dc555bf",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/27958-medium-checkrepeatedtuple"
+    }
+  },
+  {
+    "name": "28143-hard-optionalundefined",
+    "path": "questions/28143-hard-optionalundefined",
+    "sha": "dd54b7709a1dfa2dda01fcb3f8912a60dee78728",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/28143-hard-optionalundefined?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/28143-hard-optionalundefined",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/dd54b7709a1dfa2dda01fcb3f8912a60dee78728",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/28143-hard-optionalundefined?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/dd54b7709a1dfa2dda01fcb3f8912a60dee78728",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/28143-hard-optionalundefined"
+    }
+  },
+  {
+    "name": "28333-medium-public-type",
+    "path": "questions/28333-medium-public-type",
+    "sha": "57f2ef0113310b34dc51dc2bd6f8994a1b0dbc4b",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/28333-medium-public-type?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/28333-medium-public-type",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/57f2ef0113310b34dc51dc2bd6f8994a1b0dbc4b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/28333-medium-public-type?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/57f2ef0113310b34dc51dc2bd6f8994a1b0dbc4b",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/28333-medium-public-type"
+    }
+  },
+  {
+    "name": "29650-medium-extracttoobject",
+    "path": "questions/29650-medium-extracttoobject",
+    "sha": "eaf6fe6c489349d88226912ea7fae460b031e079",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/29650-medium-extracttoobject?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/29650-medium-extracttoobject",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/eaf6fe6c489349d88226912ea7fae460b031e079",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/29650-medium-extracttoobject?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/eaf6fe6c489349d88226912ea7fae460b031e079",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/29650-medium-extracttoobject"
+    }
+  },
+  {
+    "name": "29785-medium-deep-omit",
+    "path": "questions/29785-medium-deep-omit",
+    "sha": "d36d947d09c8cfb1bbcb79c51c87f68564a985b5",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/29785-medium-deep-omit?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/29785-medium-deep-omit",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d36d947d09c8cfb1bbcb79c51c87f68564a985b5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/29785-medium-deep-omit?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d36d947d09c8cfb1bbcb79c51c87f68564a985b5",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/29785-medium-deep-omit"
+    }
+  },
+  {
+    "name": "30178-hard-unique-items",
+    "path": "questions/30178-hard-unique-items",
+    "sha": "9dbbfdbe208d25aead49e82ab70f3c173c761198",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30178-hard-unique-items?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/30178-hard-unique-items",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9dbbfdbe208d25aead49e82ab70f3c173c761198",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30178-hard-unique-items?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9dbbfdbe208d25aead49e82ab70f3c173c761198",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/30178-hard-unique-items"
+    }
+  },
+  {
+    "name": "30301-medium-isodd",
+    "path": "questions/30301-medium-isodd",
+    "sha": "40cbf95cd362038b5784430a866bad819dd9a16c",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30301-medium-isodd?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/30301-medium-isodd",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/40cbf95cd362038b5784430a866bad819dd9a16c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30301-medium-isodd?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/40cbf95cd362038b5784430a866bad819dd9a16c",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/30301-medium-isodd"
+    }
+  },
+  {
+    "name": "30430-medium-tower-of-hanoi",
+    "path": "questions/30430-medium-tower-of-hanoi",
+    "sha": "18ec1b9c3b477bf3c32559222d1238d69db440e2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30430-medium-tower-of-hanoi?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/30430-medium-tower-of-hanoi",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/18ec1b9c3b477bf3c32559222d1238d69db440e2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30430-medium-tower-of-hanoi?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/18ec1b9c3b477bf3c32559222d1238d69db440e2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/30430-medium-tower-of-hanoi"
+    }
+  },
+  {
+    "name": "30575-hard-bitwisexor",
+    "path": "questions/30575-hard-bitwisexor",
+    "sha": "baef8c8451979bb1ec4e39deae918a0e0f89863a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30575-hard-bitwisexor?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/30575-hard-bitwisexor",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/baef8c8451979bb1ec4e39deae918a0e0f89863a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30575-hard-bitwisexor?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/baef8c8451979bb1ec4e39deae918a0e0f89863a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/30575-hard-bitwisexor"
+    }
+  },
+  {
+    "name": "30958-medium-pascals-triangle",
+    "path": "questions/30958-medium-pascals-triangle",
+    "sha": "76fcc2633df20c6790cfb36809df5c7f04b9c85d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30958-medium-pascals-triangle?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/30958-medium-pascals-triangle",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/76fcc2633df20c6790cfb36809df5c7f04b9c85d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30958-medium-pascals-triangle?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/76fcc2633df20c6790cfb36809df5c7f04b9c85d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/30958-medium-pascals-triangle"
+    }
+  },
+  {
+    "name": "30970-medium-shitariteraru",
+    "path": "questions/30970-medium-shitariteraru",
+    "sha": "7b1c9405cc8095b033206d5c0272091fe5cc57e0",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30970-medium-shitariteraru?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/30970-medium-shitariteraru",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7b1c9405cc8095b033206d5c0272091fe5cc57e0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/30970-medium-shitariteraru?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/7b1c9405cc8095b033206d5c0272091fe5cc57e0",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/30970-medium-shitariteraru"
+    }
+  },
+  {
+    "name": "31447-extreme-countreversepairs",
+    "path": "questions/31447-extreme-countreversepairs",
+    "sha": "46339a498b6583e329ecf5ae478ce63ec4aeb3e1",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31447-extreme-countreversepairs?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/31447-extreme-countreversepairs",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/46339a498b6583e329ecf5ae478ce63ec4aeb3e1",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31447-extreme-countreversepairs?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/46339a498b6583e329ecf5ae478ce63ec4aeb3e1",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/31447-extreme-countreversepairs"
+    }
+  },
+  {
+    "name": "31797-hard-sudoku",
+    "path": "questions/31797-hard-sudoku",
+    "sha": "ba2281e7f6d161f8396ab17b9ddf6902c10f90ff",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31797-hard-sudoku?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/31797-hard-sudoku",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ba2281e7f6d161f8396ab17b9ddf6902c10f90ff",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31797-hard-sudoku?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ba2281e7f6d161f8396ab17b9ddf6902c10f90ff",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/31797-hard-sudoku"
+    }
+  },
+  {
+    "name": "31824-hard-length-of-string-3",
+    "path": "questions/31824-hard-length-of-string-3",
+    "sha": "70e9d008367ef6c01730a7964b98c5189893a162",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31824-hard-length-of-string-3?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/31824-hard-length-of-string-3",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/70e9d008367ef6c01730a7964b98c5189893a162",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31824-hard-length-of-string-3?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/70e9d008367ef6c01730a7964b98c5189893a162",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/31824-hard-length-of-string-3"
+    }
+  },
+  {
+    "name": "31997-extreme-parameter-intersection",
+    "path": "questions/31997-extreme-parameter-intersection",
+    "sha": "08019ce8836854ccb7b508ce3ee82ee6f7ecdc2a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31997-extreme-parameter-intersection?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/31997-extreme-parameter-intersection",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/08019ce8836854ccb7b508ce3ee82ee6f7ecdc2a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/31997-extreme-parameter-intersection?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/08019ce8836854ccb7b508ce3ee82ee6f7ecdc2a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/31997-extreme-parameter-intersection"
+    }
+  },
+  {
+    "name": "32427-hard-unbox",
+    "path": "questions/32427-hard-unbox",
+    "sha": "896b9c8fff5b2bf6c56bb10b4221dc65ed6d95ad",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/32427-hard-unbox?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/32427-hard-unbox",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/896b9c8fff5b2bf6c56bb10b4221dc65ed6d95ad",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/32427-hard-unbox?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/896b9c8fff5b2bf6c56bb10b4221dc65ed6d95ad",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/32427-hard-unbox"
+    }
+  },
+  {
+    "name": "32532-hard-binary-addition",
+    "path": "questions/32532-hard-binary-addition",
+    "sha": "38d3f7e873dcbe820946c45411ed628b0bfe0eb2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/32532-hard-binary-addition?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/32532-hard-binary-addition",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/38d3f7e873dcbe820946c45411ed628b0bfe0eb2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/32532-hard-binary-addition?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/38d3f7e873dcbe820946c45411ed628b0bfe0eb2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/32532-hard-binary-addition"
+    }
+  },
+  {
+    "name": "33345-extreme-dynamic-route",
+    "path": "questions/33345-extreme-dynamic-route",
+    "sha": "a9111c12e4634481d0ecec5765c99b01128d4b15",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/33345-extreme-dynamic-route?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/33345-extreme-dynamic-route",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a9111c12e4634481d0ecec5765c99b01128d4b15",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/33345-extreme-dynamic-route?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/a9111c12e4634481d0ecec5765c99b01128d4b15",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/33345-extreme-dynamic-route"
+    }
+  },
+  {
+    "name": "33763-hard-union-to-object-from-key",
+    "path": "questions/33763-hard-union-to-object-from-key",
+    "sha": "8567949a1c952cccc85ce7701e4f9c1e13d9797e",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/33763-hard-union-to-object-from-key?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/33763-hard-union-to-object-from-key",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8567949a1c952cccc85ce7701e4f9c1e13d9797e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/33763-hard-union-to-object-from-key?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/8567949a1c952cccc85ce7701e4f9c1e13d9797e",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/33763-hard-union-to-object-from-key"
+    }
+  },
+  {
+    "name": "34007-medium-compare-array-length",
+    "path": "questions/34007-medium-compare-array-length",
+    "sha": "5cc33ae070dfa7d935fa2209ae0b99db47df1ba2",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/34007-medium-compare-array-length?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/34007-medium-compare-array-length",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5cc33ae070dfa7d935fa2209ae0b99db47df1ba2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/34007-medium-compare-array-length?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/5cc33ae070dfa7d935fa2209ae0b99db47df1ba2",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/34007-medium-compare-array-length"
+    }
+  },
+  {
+    "name": "34286-hard-take-elements",
+    "path": "questions/34286-hard-take-elements",
+    "sha": "50165c07536f8650c9f6f4ef8998f02a88b6f4a9",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/34286-hard-take-elements?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/34286-hard-take-elements",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/50165c07536f8650c9f6f4ef8998f02a88b6f4a9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/34286-hard-take-elements?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/50165c07536f8650c9f6f4ef8998f02a88b6f4a9",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/34286-hard-take-elements"
+    }
+  },
+  {
+    "name": "34857-medium-defined-partial-record",
+    "path": "questions/34857-medium-defined-partial-record",
+    "sha": "d09c750339adcc6d8d35a356923c1ab7b9e3edcf",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/34857-medium-defined-partial-record?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/34857-medium-defined-partial-record",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d09c750339adcc6d8d35a356923c1ab7b9e3edcf",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/34857-medium-defined-partial-record?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/d09c750339adcc6d8d35a356923c1ab7b9e3edcf",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/34857-medium-defined-partial-record"
+    }
+  },
+  {
+    "name": "35045-medium-longest-common-prefix",
+    "path": "questions/35045-medium-longest-common-prefix",
+    "sha": "85b3582c88ed19a71b97aa72c6bc10b0b727c68a",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35045-medium-longest-common-prefix?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/35045-medium-longest-common-prefix",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/85b3582c88ed19a71b97aa72c6bc10b0b727c68a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35045-medium-longest-common-prefix?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/85b3582c88ed19a71b97aa72c6bc10b0b727c68a",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/35045-medium-longest-common-prefix"
+    }
+  },
+  {
+    "name": "35191-medium-trace",
+    "path": "questions/35191-medium-trace",
+    "sha": "e18ce56ef4410749aeea267a85fb2d53d1ff78bd",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35191-medium-trace?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/35191-medium-trace",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e18ce56ef4410749aeea267a85fb2d53d1ff78bd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35191-medium-trace?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/e18ce56ef4410749aeea267a85fb2d53d1ff78bd",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/35191-medium-trace"
+    }
+  },
+  {
+    "name": "35252-medium-isalphabet",
+    "path": "questions/35252-medium-isalphabet",
+    "sha": "ceae80ab850696dcd968a1134f336458afd58dac",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35252-medium-isalphabet?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/35252-medium-isalphabet",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ceae80ab850696dcd968a1134f336458afd58dac",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35252-medium-isalphabet?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/ceae80ab850696dcd968a1134f336458afd58dac",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/35252-medium-isalphabet"
+    }
+  },
+  {
+    "name": "35314-hard-valid-sudoku",
+    "path": "questions/35314-hard-valid-sudoku",
+    "sha": "0519ce00bf7e626103367ec7ded5f3be83202691",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35314-hard-valid-sudoku?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/35314-hard-valid-sudoku",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0519ce00bf7e626103367ec7ded5f3be83202691",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35314-hard-valid-sudoku?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/0519ce00bf7e626103367ec7ded5f3be83202691",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/35314-hard-valid-sudoku"
+    }
+  },
+  {
+    "name": "35991-medium-myuppercase",
+    "path": "questions/35991-medium-myuppercase",
+    "sha": "9f0bc7fc8bb8e906c7df5ba7c5db487577d63c1d",
+    "size": 0,
+    "url": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35991-medium-myuppercase?ref=main",
+    "html_url": "https://github.com/type-challenges/type-challenges/tree/main/questions/35991-medium-myuppercase",
+    "git_url": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9f0bc7fc8bb8e906c7df5ba7c5db487577d63c1d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/type-challenges/type-challenges/contents/questions/35991-medium-myuppercase?ref=main",
+      "git": "https://api.github.com/repos/type-challenges/type-challenges/git/trees/9f0bc7fc8bb8e906c7df5ba7c5db487577d63c1d",
+      "html": "https://github.com/type-challenges/type-challenges/tree/main/questions/35991-medium-myuppercase"
+    }
+  }
+]

@@ -1,34 +1,70 @@
 import { defineStore } from 'pinia'
-import { useLocalStorage } from '@vueuse/core'
+import { useIDBKeyval } from '@vueuse/integrations/useIDBKeyval'
 
 export type ChallengeStatus = 'passed' | 'failed' | 'unsolved'
 
 export const useUserStore = defineStore('user', () => {
-  // Store status of each challenge: { '4-easy-pick': 'passed' }
-  const progress = useLocalStorage<Record<string, ChallengeStatus>>('ts-challenges-progress', {})
+  // Use a fallback for SSR since IndexedDB is client-only
+  const progress = import.meta.client
+    ? useIDBKeyval<Record<string, ChallengeStatus>>('ts-challenges-progress', {})
+    : { data: ref<Record<string, ChallengeStatus>>({}), isFinished: ref(true), set: async () => {} }
 
-  // Store latest code for each challenge: { '4-easy-pick': 'type MyPick...' }
-  const solutions = useLocalStorage<Record<string, string>>('ts-challenges-solutions', {})
+  const solutions = import.meta.client
+    ? useIDBKeyval<Record<string, string>>('ts-challenges-solutions', {})
+    : { data: ref<Record<string, string>>({}), isFinished: ref(true), set: async () => {} }
+
+  const migrated = import.meta.client
+    ? useIDBKeyval<boolean>('ts-challenges-migrated', false)
+    : { data: ref(false), isFinished: ref(true), set: async () => {} }
+
+  // Sync migration from localStorage (Only on client)
+  if (import.meta.client) {
+    watch([progress.data, solutions.data, migrated.data], () => {
+      if (!migrated.data.value) {
+        const localProgress = localStorage.getItem('ts-challenges-progress')
+        const localSolutions = localStorage.getItem('ts-challenges-solutions')
+
+        if (localProgress) {
+          try {
+            progress.data.value = { ...progress.data.value, ...JSON.parse(localProgress) }
+          } catch (e) {
+            console.error('Failed to migrate progress', e)
+          }
+        }
+
+        if (localSolutions) {
+          try {
+            solutions.data.value = { ...solutions.data.value, ...JSON.parse(localSolutions) }
+          } catch (e) {
+            console.error('Failed to migrate solutions', e)
+          }
+        }
+
+        migrated.data.value = true
+        console.log('Successfully migrated data from localStorage to IndexedDB')
+      }
+    }, { immediate: true })
+  }
 
   function updateProgress(challengeName: string, status: ChallengeStatus) {
-    progress.value[challengeName] = status
+    progress.data.value[challengeName] = status
   }
 
   function saveSolution(challengeName: string, code: string) {
-    solutions.value[challengeName] = code
+    solutions.data.value[challengeName] = code
   }
 
   function getStatus(challengeName: string): ChallengeStatus {
-    return progress.value[challengeName] || 'unsolved'
+    return progress.data.value[challengeName] || 'unsolved'
   }
 
   function getSolution(challengeName: string): string | null {
-    return solutions.value[challengeName] || null
+    return solutions.data.value[challengeName] || null
   }
 
   return {
-    progress,
-    solutions,
+    progress: progress.data,
+    solutions: solutions.data,
     updateProgress,
     saveSolution,
     getStatus,

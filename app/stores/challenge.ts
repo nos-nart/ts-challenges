@@ -5,15 +5,8 @@ import {
   titleOverrides,
   getHintContent,
   getConcept
-} from '~/data/challenges'
-import challengeList from '~/data/challenges/list.json'
-
-// Load all challenge files locally
-const challengeFiles = import.meta.glob('../data/challenges/**/*.{(md,ts)}', {
-  query: '?raw',
-  import: 'default',
-  eager: true
-})
+} from '~/utils/challenges'
+import challengeList from '~/utils/challenge-list.json'
 
 // Helper to normalize "00004-easy-pick" to "4-easy-pick" for lookups
 function normalizeName(name: string) {
@@ -41,6 +34,7 @@ function formatTitle(slug: string) {
 export const useChallengeStore = defineStore('challenge', () => {
   const challenges = ref<Challenge[]>([])
   const currentChallenge = ref<Challenge | null>(null)
+  const activeConcepts = ref<Concept[]>([])
   const listLoading = ref(false)
   const detailsLoading = ref(false)
   const error = ref<string | null>(null)
@@ -78,16 +72,18 @@ export const useChallengeStore = defineStore('challenge', () => {
       url.searchParams.set('c', challenge.name)
       window.history.replaceState({}, '', url.toString())
 
-      // Get content from local files
-      const readmePath = `../data/challenges/${challenge.name}/README.md`
-      const templatePath = `../data/challenges/${challenge.name}/template.ts`
-      const testsPath = `../data/challenges/${challenge.name}/test-cases.ts`
-
-      const readme = (challengeFiles[readmePath] as string) || ''
-      const template = (challengeFiles[templatePath] as string) || ''
-      const tests = (challengeFiles[testsPath] as string) || ''
-
       const normalized = normalizeName(challenge.name)
+
+      // Fetch content from public directory
+      const [readme, template, tests, hint, concepts] = await Promise.all([
+        fetch(`/data/challenges/${challenge.name}/README.md`).then(r => r.ok ? r.text() : ''),
+        fetch(`/data/challenges/${challenge.name}/template.ts`).then(r => r.ok ? r.text() : ''),
+        fetch(`/data/challenges/${challenge.name}/test-cases.ts`).then(r => r.ok ? r.text() : ''),
+        getHintContent(normalized),
+        Promise.all((challengeMapping[normalized] || []).map(id => getConcept(id)))
+      ])
+
+      activeConcepts.value = concepts.filter((c): c is Concept => !!c)
 
       currentChallenge.value = {
         ...challenge,
@@ -95,7 +91,7 @@ export const useChallengeStore = defineStore('challenge', () => {
         template,
         tests,
         hint:
-          getHintContent(normalized)
+          hint
           || `
 - Think about the core TypeScript features that might apply here.
 - Check the **Learn** tab for syntax deep-dives.
@@ -108,13 +104,6 @@ export const useChallengeStore = defineStore('challenge', () => {
       detailsLoading.value = false
     }
   }
-
-  const activeConcepts = computed(() => {
-    if (!currentChallenge.value?.concepts) return []
-    return currentChallenge.value.concepts
-      .map(id => getConcept(id))
-      .filter((c): c is Concept => !!c)
-  })
 
   return {
     challenges,

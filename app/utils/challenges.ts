@@ -106,34 +106,22 @@ export const conceptMetadata: Record<string, Omit<Concept, 'content'>> = {
   'variadic-tuple-types': { id: 'variadic-tuple-types', title: 'Variadic Tuple Types' }
 }
 
-// Dynamically load Markdown content
-const hintFiles = import.meta.glob('./hints/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true
-})
-const conceptFiles = import.meta.glob('./concepts/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true
-})
-
-export const getHintContent = (slug: string): string | undefined => {
-  const path = `./hints/${slug}.md`
-  return (hintFiles[path] as string) || undefined
+export const getHintContent = async (slug: string): Promise<string | undefined> => {
+  const res = await fetch(`/data/hints/${slug}.md`)
+  return res.ok ? await res.text() : undefined
 }
 
-export const getConceptContent = (id: string): string | undefined => {
-  const path = `./concepts/${id}.md`
-  return (conceptFiles[path] as string) || undefined
+export const getConceptContent = async (id: string): Promise<string | undefined> => {
+  const res = await fetch(`/data/concepts/${id}.md`)
+  return res.ok ? await res.text() : undefined
 }
 
-export const getConcept = (id: string): Concept | undefined => {
+export const getConcept = async (id: string): Promise<Concept | undefined> => {
   const meta = conceptMetadata[id]
   if (!meta) return undefined
 
   return {
     ...meta,
-    content: getConceptContent(id) || 'Content coming soon...'
+    content: (await getConceptContent(id)) || 'Content coming soon...'
   }
 }

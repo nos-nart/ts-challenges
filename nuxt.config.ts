@@ -44,7 +44,16 @@ export default defineNuxtConfig({
   // Optimized configuration for Monaco & Shiki in Nuxt 4/Vite
   vite: {
     optimizeDeps: {
-      include: ['splitpanes', 'monaco-editor', '@shikijs/monaco', 'shiki', '@vueuse/core']
+      include: [
+        'splitpanes',
+        'monaco-editor',
+        '@shikijs/monaco',
+        'shiki',
+        '@vueuse/core',
+        'idb-keyval',
+        '@vueuse/integrations',
+        '@vueuse/integrations/useIDBKeyval'
+      ]
     },
     build: {
       commonjsOptions: {
@@ -65,9 +74,7 @@ export default defineNuxtConfig({
   },
 
   typescript: {
-    tsConfig: {
-      exclude: ['../app/data/challenges']
-    }
+    typeCheck: true
   },
 
   eslint: {
