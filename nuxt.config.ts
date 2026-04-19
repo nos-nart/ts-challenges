@@ -9,8 +9,81 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/mdc',
     'nuxt-og-image',
-    '@nuxt/fonts'
+    '@nuxt/fonts',
+    '@vite-pwa/nuxt'
   ],
+
+  pwa: {
+    strategies: 'generateSW',
+    registerType: 'autoUpdate',
+    injectRegister: 'script',
+    manifest: {
+      name: 'TypeScript Challenges',
+      short_name: 'TS Challenges',
+      theme_color: '#000000',
+      icons: [
+        {
+          src: 'pwa-192x192.png',
+          sizes: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: 'pwa-512x512.png',
+          sizes: '512x512',
+          type: 'image/png'
+        },
+        {
+          src: 'pwa-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable'
+        }
+      ]
+    },
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+      maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10MB
+      skipWaiting: true,
+      clientsClaim: true,
+      runtimeCaching: [
+        {
+          urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/.*/i,
+          handler: 'CacheFirst',
+          options: {
+            cacheName: 'cdn-cache',
+            expiration: {
+              maxEntries: 10,
+              maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+            },
+            cacheableResponse: {
+              statuses: [0, 200]
+            }
+          }
+        },
+        {
+          urlPattern: /^\/data\/.*/i,
+          handler: 'StaleWhileRevalidate',
+          options: {
+            cacheName: 'challenge-data',
+            expiration: {
+              maxEntries: 1000,
+              maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+            }
+          }
+        }
+      ]
+    },
+    client: {
+      installPrompt: true
+    },
+    devOptions: {
+      enabled: true,
+      suppressWarnings: true,
+      navigateFallbackAllowlist: [/^\/$/],
+      type: 'module'
+    }
+  },
 
   ssr: true,
 

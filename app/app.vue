@@ -18,6 +18,7 @@ defineOgImage('Custom', {
 
 <template>
   <NuxtLayout>
+    <VitePwaManifest />
     <NuxtPage />
   </NuxtLayout>
 </template>

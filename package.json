@@ -36,6 +36,7 @@
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
     "@nuxtjs/mdc": "^0.21.1",
+    "@vite-pwa/nuxt": "^1.1.1",
     "eslint": "^10.2.0",
     "nuxt-og-image": "^6.3.5",
     "typescript": "^6.0.2",
