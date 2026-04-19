@@ -51,16 +51,22 @@ export default defineNuxtConfig({
         transformMixedEsModules: true
       },
       rollupOptions: {
-        onwarn (warning, warn) {
+        onwarn(warning, warn) {
           // With the update to nuxt 4.4.2 a ton of messages about missing sourcemaps started to appear, but sourcemaps
           // are disabled by default on nuxt and we do not want them, and thus there is no need to worry about the
           // warning, so just ignore these.
           if (warning.code === 'SOURCEMAP_BROKEN') {
-            return; // ignore
+            return // ignore
           }
-          warn(warning);
-        },
-      },
+          warn(warning)
+        }
+      }
+    }
+  },
+
+  typescript: {
+    tsConfig: {
+      exclude: ['../app/data/challenges']
     }
   },
 
@@ -74,6 +80,6 @@ export default defineNuxtConfig({
   },
 
   ogImage: {
-    enabled: true,
+    enabled: true
   }
 })

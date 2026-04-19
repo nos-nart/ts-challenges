@@ -24,12 +24,12 @@ const isDark = computed(() => props.colorMode === 'dark')
   >
     <!-- Background Decor -->
     <div class="absolute inset-0 flex overflow-hidden opacity-20">
-      <div 
-        class="absolute -top-[20%] -right-[10%] w-[60%] h-[80%] rounded-full bg-blue-500" 
+      <div
+        class="absolute -top-[20%] -right-[10%] w-[60%] h-[80%] rounded-full bg-blue-500"
         style="filter: blur(120px);"
       />
-      <div 
-        class="absolute -bottom-[20%] -left-[10%] w-[60%] h-[80%] rounded-full bg-green-500" 
+      <div
+        class="absolute -bottom-[20%] -left-[10%] w-[60%] h-[80%] rounded-full bg-green-500"
         style="filter: blur(120px);"
       />
     </div>
@@ -41,10 +41,13 @@ const isDark = computed(() => props.colorMode === 'dark')
           <span class="text-white font-mono font-bold text-xl">TS</span>
         </div>
         <h2 class="text-2xl font-mono font-bold tracking-tight flex">
-          TYPE<span class="text-blue-500" style="text-decoration: underline; text-underline-offset: 4px;">CHALLENGES</span>[]
+          TYPE<span
+            class="text-blue-500"
+            style="text-decoration: underline; text-underline-offset: 4px;"
+          >CHALLENGES</span>[]
         </h2>
       </div>
-      <div 
+      <div
         class="px-4 py-1.5 flex rounded-full border border-white/10 bg-white/5 text-sm font-medium opacity-80"
       >
         typescript-challenges.app
@@ -56,8 +59,8 @@ const isDark = computed(() => props.colorMode === 'dark')
       <h1 class="text-7xl font-bold leading-tight tracking-tight max-w-[90%]">
         {{ title }}
       </h1>
-      <p 
-        v-if="description" 
+      <p
+        v-if="description"
         class="text-3xl font-medium leading-relaxed text-gray-400 max-w-[80%]"
       >
         {{ description }}

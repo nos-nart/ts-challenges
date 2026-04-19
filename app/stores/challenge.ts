@@ -6,6 +6,14 @@ import {
   getHintContent,
   getConcept
 } from '~/data/challenges'
+import challengeList from '~/data/challenges/list.json'
+
+// Load all challenge files locally
+const challengeFiles = import.meta.glob('../data/challenges/**/*.{(md,ts)}', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+})
 
 // Helper to normalize "00004-easy-pick" to "4-easy-pick" for lookups
 function normalizeName(name: string) {
@@ -40,11 +48,7 @@ export const useChallengeStore = defineStore('challenge', () => {
   async function fetchChallenges() {
     listLoading.value = true
     try {
-      const response = await fetch(
-        'https://api.github.com/repos/type-challenges/type-challenges/contents/questions'
-      )
-      const data = await response.json()
-      challenges.value = data.map((item: any) => {
+      challenges.value = challengeList.map((item: any) => {
         const parts = item.name.split('-')
         parts.shift() // Remove ID
         const difficulty = parts.shift()
@@ -69,23 +73,19 @@ export const useChallengeStore = defineStore('challenge', () => {
   async function selectChallenge(challenge: Challenge) {
     detailsLoading.value = true
     try {
-      // Update URL with challenge slug without full reload if possible,
-      // but index.vue handles initial load from URL.
+      // Update URL with challenge slug without full reload
       const url = new URL(window.location.href)
       url.searchParams.set('c', challenge.name)
       window.history.replaceState({}, '', url.toString())
 
-      const [readme, template, tests] = await Promise.all([
-        fetch(
-          `https://raw.githubusercontent.com/type-challenges/type-challenges/main/questions/${challenge.name}/README.md`
-        ).then(r => r.text()),
-        fetch(
-          `https://raw.githubusercontent.com/type-challenges/type-challenges/main/questions/${challenge.name}/template.ts`
-        ).then(r => r.text()),
-        fetch(
-          `https://raw.githubusercontent.com/type-challenges/type-challenges/main/questions/${challenge.name}/test-cases.ts`
-        ).then(r => r.text())
-      ])
+      // Get content from local files
+      const readmePath = `../data/challenges/${challenge.name}/README.md`
+      const templatePath = `../data/challenges/${challenge.name}/template.ts`
+      const testsPath = `../data/challenges/${challenge.name}/test-cases.ts`
+
+      const readme = (challengeFiles[readmePath] as string) || ''
+      const template = (challengeFiles[templatePath] as string) || ''
+      const tests = (challengeFiles[testsPath] as string) || ''
 
       const normalized = normalizeName(challenge.name)
 
