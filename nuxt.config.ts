@@ -105,6 +105,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  build: {
+    transpile: ['@vueuse/core', 'estree-walker']
+  },
+
   site: {
     url: 'https://ts-challenges.vercel.app',
     name: 'TypeScript Challenges'
@@ -123,6 +127,7 @@ export default defineNuxtConfig({
         '@shikijs/monaco',
         'shiki',
         '@vueuse/core',
+        'estree-walker',
         'idb-keyval',
         '@vueuse/integrations',
         '@vueuse/integrations/useIDBKeyval'
@@ -130,7 +135,10 @@ export default defineNuxtConfig({
     },
     build: {
       commonjsOptions: {
-        transformMixedEsModules: true
+        transformMixedEsModules: true,
+        dynamicRequireTargets: [
+          '**/node_modules/estree-walker/**/*.js'
+        ]
       },
       rollupOptions: {
         onwarn(warning, warn) {
