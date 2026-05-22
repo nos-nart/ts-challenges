@@ -62,12 +62,6 @@ export default defineNuxtConfig({
       ]
     },
     build: {
-      commonjsOptions: {
-        transformMixedEsModules: true,
-        dynamicRequireTargets: [
-          '**/node_modules/estree-walker/**/*.js'
-        ]
-      },
       rollupOptions: {
         onwarn(warning, warn) {
           // With the update to nuxt 4.4.2 a ton of messages about missing sourcemaps started to appear, but sourcemaps
