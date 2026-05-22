@@ -27,6 +27,7 @@ export function useChallengeTester() {
     }
 
     // Definitive way to get diagnostics from the TS Worker
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const ts = monaco.languages.typescript as any
     const getWorker = await ts.getTypeScriptWorker()
     const worker = await getWorker(testUri)

@@ -1,8 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import type * as MonacoType from 'monaco-editor'
+import type { Highlighter } from 'shiki'
 
 export type Monaco = typeof MonacoType
 
-let setupPromise: Promise<{ monaco: Monaco, highlighter: any }> | null = null
+let setupPromise: Promise<{ monaco: Monaco, highlighter: Highlighter }> | null = null
 let formatterInitialized = false
 
 export async function setupMonaco() {

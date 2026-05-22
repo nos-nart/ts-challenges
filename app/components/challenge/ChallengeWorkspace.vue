@@ -65,6 +65,7 @@ defineExpose({
       class="absolute bottom-4 right-6 flex items-center gap-2 z-10"
     >
       <UButton
+        id="btn-prettify"
         icon="i-solar-stars-bold-duotone"
         label="Prettify"
         variant="subtle"
@@ -74,6 +75,7 @@ defineExpose({
         @click="$emit('format')"
       />
       <UButton
+        id="btn-submit"
         label="Submit"
         color="primary"
         icon="i-solar-check-circle-bold-duotone"

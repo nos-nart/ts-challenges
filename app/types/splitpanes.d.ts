@@ -1,6 +1,6 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type, @typescript-eslint/no-explicit-any */
 declare module 'splitpanes' {
   import type { DefineComponent, ComponentOptionsMixin } from 'vue'
-  import { ComputedOptions, MethodOptions, VNodeProps, AllowedComponentProps, ComponentCustomProps } from 'vue'
 
   interface SplitpanesProps {
     horizontal?: boolean

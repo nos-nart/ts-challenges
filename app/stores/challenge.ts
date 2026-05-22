@@ -42,10 +42,10 @@ export const useChallengeStore = defineStore('challenge', () => {
   async function fetchChallenges() {
     listLoading.value = true
     try {
-      challenges.value = challengeList.map((item: any) => {
+      challenges.value = (challengeList as Array<{ name: string, path: string }>).map((item) => {
         const parts = item.name.split('-')
         parts.shift() // Remove ID
-        const difficulty = parts.shift()
+        const difficulty = parts.shift() || ''
         const slug = parts.join('-')
         const normalized = normalizeName(item.name)
 
@@ -57,8 +57,12 @@ export const useChallengeStore = defineStore('challenge', () => {
           concepts: challengeMapping[normalized] || []
         }
       })
-    } catch (e: any) {
-      error.value = e.message
+    } catch (e) {
+      if (e instanceof Error) {
+        error.value = e.message
+      } else {
+        error.value = String(e)
+      }
     } finally {
       listLoading.value = false
     }
@@ -98,8 +102,12 @@ export const useChallengeStore = defineStore('challenge', () => {
 - Break the problem into smaller steps: what is the input, and what exactly is the expected output?
         `
       }
-    } catch (e: any) {
-      error.value = e.message
+    } catch (e) {
+      if (e instanceof Error) {
+        error.value = e.message
+      } else {
+        error.value = String(e)
+      }
     } finally {
       detailsLoading.value = false
     }

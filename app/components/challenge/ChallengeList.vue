@@ -6,9 +6,7 @@ import { useUserStore } from '~/stores/user'
 const store = useChallengeStore()
 const user = useUserStore()
 
-onMounted(() => {
-  store.fetchChallenges()
-})
+store.fetchChallenges()
 
 const difficultyOrder = ['warmup', 'easy', 'medium', 'hard', 'extreme']
 

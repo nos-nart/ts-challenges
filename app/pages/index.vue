@@ -250,6 +250,7 @@ const resultsHeightInit = computed(() =>
         <template v-else>
           <UButton
             v-if="!isDesktop"
+            id="btn-mobile-menu"
             icon="i-solar-hamburger-menu-bold-duotone"
             color="neutral"
             variant="ghost"
@@ -282,6 +283,7 @@ const resultsHeightInit = computed(() =>
         </template>
         <template v-else>
           <USelectMenu
+            id="select-ts-version"
             v-model="selectedVersion"
             :items="ui.supportedTsVersions"
             size="sm"
@@ -300,6 +302,7 @@ const resultsHeightInit = computed(() =>
           </USelectMenu>
 
           <UButton
+            id="btn-toggle-theme"
             :icon="isDark ? 'i-solar-sun-2-bold-duotone' : 'i-solar-moon-bold-duotone'"
             color="neutral"
             variant="ghost"
@@ -433,28 +436,73 @@ const resultsHeightInit = computed(() =>
         </USlideover>
 
         <template #placeholder>
-          <div class="h-full w-full flex items-center justify-center bg-white dark:bg-gray-950">
-            <svg
-              class="w-10 h-10 animate-spin opacity-20 text-gray-400"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              style="will-change: transform"
-            >
-              <circle
-                class="opacity-25"
-                cx="12"
-                cy="12"
-                r="10"
-                stroke="currentColor"
-                stroke-width="4"
-              />
-              <path
-                class="opacity-75"
-                fill="currentColor"
-                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-              />
-            </svg>
+          <div class="h-full w-full bg-white dark:bg-gray-950 flex flex-col lg:flex-row overflow-hidden">
+            <!-- Mobile/Tablet Stacked Layout Skeleton (hidden on desktop lg+) -->
+            <div class="lg:hidden h-full w-full overflow-y-auto flex flex-col bg-white dark:bg-gray-950">
+              <div class="flex-shrink-0">
+                <ChallengeInstructions />
+              </div>
+              <div class="h-[400px] flex-shrink-0 border-t border-gray-200 dark:border-gray-800 p-6 flex flex-col gap-4">
+                <div class="flex justify-between items-center border-b border-gray-100 dark:border-gray-800/50 pb-2">
+                  <div class="flex gap-2">
+                    <div class="h-4 w-12 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                    <div class="h-4 w-16 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                  </div>
+                  <div class="h-6 w-16 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                </div>
+                <div class="flex-1 flex flex-col gap-2 pt-2">
+                  <div class="h-3 w-1/3 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                  <div class="h-3 w-2/3 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                </div>
+              </div>
+              <div class="h-[300px] flex-shrink-0 bg-gray-50 dark:bg-gray-950 p-6">
+                <div class="h-4 w-24 bg-gray-200 dark:bg-gray-800 rounded animate-pulse mb-3" />
+                <div class="space-y-2">
+                  <div class="h-3 w-1/2 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Desktop Three-Panel Grid Skeleton Layout (hidden on mobile/tablet) -->
+            <div class="hidden lg:flex w-full h-full">
+              <!-- Left Panel (Sidebar): w-[20%] -->
+              <div class="w-[20%] h-full border-r border-gray-200 dark:border-gray-800">
+                <ChallengeList />
+              </div>
+
+              <!-- Center Panel (Instructions): w-[32%] (40% of the remaining 80%) -->
+              <div class="w-[32%] h-full border-r border-gray-200 dark:border-gray-800">
+                <ChallengeInstructions />
+              </div>
+
+              <!-- Right Panel (Workspace + Results): w-[48%] (60% of the remaining 80%) -->
+              <div class="w-[48%] h-full flex flex-col">
+                <!-- Editor placeholder (70% height) -->
+                <div class="h-[70%] border-b border-gray-200 dark:border-gray-800 p-6 flex flex-col gap-4 bg-gray-50/50 dark:bg-black/50">
+                  <div class="flex justify-between items-center border-b border-gray-100 dark:border-gray-800/50 pb-2">
+                    <div class="flex gap-2">
+                      <div class="h-4 w-12 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                      <div class="h-4 w-16 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                    </div>
+                    <div class="h-6 w-16 bg-gray-100 dark:bg-gray-800 rounded animate-pulse" />
+                  </div>
+                  <div class="flex-1 flex flex-col gap-2 pt-2">
+                    <div class="h-3 w-1/3 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                    <div class="h-3 w-2/3 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                    <div class="h-3 w-1/2 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                    <div class="h-3 w-3/4 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                  </div>
+                </div>
+                <!-- Results placeholder (30% height) -->
+                <div class="h-[30%] bg-gray-50 dark:bg-gray-950 p-6">
+                  <div class="h-4 w-24 bg-gray-200 dark:bg-gray-800 rounded animate-pulse mb-3" />
+                  <div class="space-y-2">
+                    <div class="h-3 w-1/2 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                    <div class="h-3 w-1/3 bg-gray-100 dark:bg-gray-800/80 rounded animate-pulse" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </template>
       </ClientOnly>

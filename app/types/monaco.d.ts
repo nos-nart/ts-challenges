@@ -13,14 +13,6 @@ declare module 'monaco-editor/esm/vs/language/json/json.worker?worker' {
   export default WorkerFactory
 }
 
-declare module 'splitpanes' {
-  import type { DefineComponent } from 'vue'
-
-  const Splitpanes: DefineComponent<any, any, any>
-  const Pane: DefineComponent<any, any, any>
-  export { Splitpanes, Pane }
-}
-
 declare global {
   interface Window {
     MonacoEnvironment: import('monaco-editor').Environment
