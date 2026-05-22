@@ -39,7 +39,7 @@ export default defineNuxtConfig({
   },
 
   build: {
-    transpile: ['@vueuse/core', 'estree-walker']
+    transpile: []
   },
 
   sourcemap: false,
