@@ -54,8 +54,6 @@ export default defineNuxtConfig({
         'monaco-editor',
         '@shikijs/monaco',
         'shiki',
-        '@vueuse/core',
-        'estree-walker',
         'idb-keyval',
         '@vueuse/integrations',
         '@vueuse/integrations/useIDBKeyval'
