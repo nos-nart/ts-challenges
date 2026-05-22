@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@rollup/pluginutils@3>estree-walker': 2.0.2
+
 importers:
 
   .:
@@ -4150,9 +4153,6 @@ packages:
   estraverse@5.3.0:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
-
-  estree-walker@1.0.1:
-    resolution: {integrity: sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==}
 
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
@@ -9610,7 +9610,7 @@ snapshots:
   '@rollup/pluginutils@3.1.0(rollup@2.80.0)':
     dependencies:
       '@types/estree': 0.0.39
-      estree-walker: 1.0.1
+      estree-walker: 2.0.2
       picomatch: 2.3.2
       rollup: 2.80.0
 
@@ -11652,8 +11652,6 @@ snapshots:
       estraverse: 5.3.0
 
   estraverse@5.3.0: {}
-
-  estree-walker@1.0.1: {}
 
   estree-walker@2.0.2: {}
 

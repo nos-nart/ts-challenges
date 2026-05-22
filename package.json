@@ -42,5 +42,10 @@
     "typescript": "^6.0.2",
     "vue-tsc": "^3.2.6"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "overrides": {
+      "@rollup/pluginutils@3>estree-walker": "2.0.2"
+    }
+  }
 }
