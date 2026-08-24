@@ -1,4 +1,4 @@
-The `infer` keyword allows you to "guess" or "pluck" a type from within another structure. It's used inside conditional types to capture a specific type.
+The `infer` keyword allows you to extract and name a type variable from within another structure inside conditional types.
 
 #### Example: Return Type
 ```ts
@@ -14,12 +14,16 @@ type UnpackArray<T> = T extends (infer U)[] ? U : T
 type B = UnpackArray<number[]> // number
 ```
 
-#### Example: Promise Value
-```ts
-type UnpackPromise<T> = T extends Promise<infer U> ? U : T
+#### Constrained Infer (`infer extends` in TypeScript 4.7+)
+You can add an `extends` constraint directly onto an `infer` declaration:
 
-type C = UnpackPromise<Promise<string>> // string
+```ts
+type StringToNumber<S extends string> = S extends `${infer N extends number}` ? N : never
+
+type C = StringToNumber<'123'> // 123
+type D = StringToNumber<'abc'> // never
 ```
 
-#### Why use it?
-`infer` is essential for creating flexible, generic types that can reach into other types and extract their internal structure.
+#### References
+- [Official Handbook: Inferring Within Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
+- [Release Notes: extends Constraints on infer Type Variables](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#extends-constraints-on-infer-type-variables)

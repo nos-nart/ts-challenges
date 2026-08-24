@@ -18,6 +18,11 @@ const store = useChallengeStore()
             slot: 'hint'
           },
           {
+            label: 'Solution',
+            icon: 'i-solar-check-circle-bold-duotone',
+            slot: 'solution'
+          },
+          {
             label: 'Learn',
             icon: 'i-solar-book-bookmark-bold-duotone',
             slot: 'learn'
@@ -53,6 +58,33 @@ const store = useChallengeStore()
               v-else
               :value="store.currentChallenge.hint || ''"
             />
+          </div>
+        </template>
+
+        <template #solution>
+          <div class="prose dark:prose-invert max-w-none prose-sm challenge-readme">
+            <h3 class="flex items-center gap-2">
+              <UIcon
+                name="i-solar-check-circle-bold-duotone"
+                class="text-primary w-5 h-5"
+              />
+              Reference Solution
+            </h3>
+            <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+            <LazyMDC
+              v-else-if="store.currentChallenge.solution"
+              :value="store.currentChallenge.solution"
+            />
+            <div
+              v-else
+              class="flex flex-col items-center justify-center py-10 opacity-50"
+            >
+              <UIcon
+                name="i-solar-lock-keyhole-bold-duotone"
+                class="w-10 h-10 mb-2"
+              />
+              <p>No solution file for this challenge yet.</p>
+            </div>
           </div>
         </template>
 

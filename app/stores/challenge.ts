@@ -79,11 +79,14 @@ export const useChallengeStore = defineStore('challenge', () => {
       const normalized = normalizeName(challenge.name)
 
       // Fetch content from public directory
-      const [readme, template, tests, hint, concepts] = await Promise.all([
+      const [readme, template, tests, hint, solution, concepts] = await Promise.all([
         fetch(`/data/challenges/${challenge.name}/README.md`).then(r => r.ok ? r.text() : ''),
         fetch(`/data/challenges/${challenge.name}/template.ts`).then(r => r.ok ? r.text() : ''),
         fetch(`/data/challenges/${challenge.name}/test-cases.ts`).then(r => r.ok ? r.text() : ''),
-        getHintContent(normalized),
+        fetch(`/data/challenges/${challenge.name}/hint.md`)
+          .then(r => r.ok ? r.text() : '')
+          .then(async h => h || await getHintContent(normalized)),
+        fetch(`/data/challenges/${challenge.name}/solution.md`).then(r => r.ok ? r.text() : ''),
         Promise.all((challengeMapping[normalized] || []).map(id => getConcept(id)))
       ])
 
@@ -100,7 +103,8 @@ export const useChallengeStore = defineStore('challenge', () => {
 - Think about the core TypeScript features that might apply here.
 - Check the **Learn** tab for syntax deep-dives.
 - Break the problem into smaller steps: what is the input, and what exactly is the expected output?
-        `
+        `,
+        solution: solution || undefined
       }
     } catch (e) {
       if (e instanceof Error) {

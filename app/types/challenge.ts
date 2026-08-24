@@ -8,6 +8,7 @@ export interface Challenge {
   tests?: string
   concepts?: string[]
   hint?: string
+  solution?: string
 }
 
 export interface Concept {

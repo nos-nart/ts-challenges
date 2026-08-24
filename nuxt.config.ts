@@ -38,6 +38,16 @@ export default defineNuxtConfig({
     name: 'TypeScript Challenges'
   },
 
+  mdc: {
+    highlight: {
+      theme: {
+        default: 'vitesse-light',
+        dark: 'vitesse-dark'
+      },
+      langs: ['ts', 'typescript', 'js', 'javascript', 'json']
+    }
+  },
+
   build: {
     transpile: []
   },

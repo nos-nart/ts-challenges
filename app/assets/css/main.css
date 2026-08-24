@@ -110,6 +110,20 @@ body {
   @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-primary font-bold text-[0.9em] before:content-none after:content-none;
 }
 
+/* Code block styling & contrast */
+.challenge-readme pre {
+  @apply bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-4 my-4 font-mono text-sm leading-relaxed overflow-x-auto text-gray-800 dark:text-gray-200;
+}
+
+/* Ensure code comments have crisp, readable contrast */
+.challenge-readme pre .comment,
+.challenge-readme pre span[style*="color:#a0ada0"],
+.challenge-readme pre span[style*="color:#6b7280"],
+.challenge-readme pre span[style*="color:#9ca3af"],
+.challenge-readme pre span[style*="color:#71717a"] {
+  @apply text-gray-600 dark:text-gray-400 font-medium;
+}
+
 .challenge-readme a {
   @apply text-primary no-underline hover:underline mr-1;
 }

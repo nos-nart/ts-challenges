@@ -8,7 +8,7 @@ const data: NestedArray<number> = [1, [2, [3, 4]]]
 ```
 
 #### Base Case
-Every recursive type needs a "base case"—a condition where the recursion stops. In the example above, the base case is when the type is `T` (not an array).
+Every recursive type needs a "base case", a condition where the recursion stops. In the example above, the base case is when the type is `T` (not an array).
 
 #### Deep Transformation
 Recursion is frequently used in TypeScript to perform deep transformations on object structures:

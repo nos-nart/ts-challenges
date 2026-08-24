@@ -71,27 +71,23 @@ export async function setupMonaco() {
 
       if (typeof window !== 'undefined') {
         (window as any).MonacoEnvironment = {
-          async getWorker(_: any, label: string) {
+          getWorkerUrl(_: any, label: string) {
             if (label === 'json') {
-              const JsonWorker = (
-                await import(
-                  'monaco-editor/esm/vs/language/json/json.worker?worker'
-                )
-              ).default
-              return new JsonWorker()
+              return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
+                self.MonacoEnvironment = { baseUrl: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.56.0/min/' };
+                importScripts('https://cdn.jsdelivr.net/npm/monaco-editor@0.56.0/min/vs/language/json/json.worker.js');
+              `)}`
             }
             if (label === 'typescript' || label === 'javascript') {
-              const TsWorker = (
-                await import(
-                  'monaco-editor/esm/vs/language/typescript/ts.worker?worker'
-                )
-              ).default
-              return new TsWorker()
+              return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
+                self.MonacoEnvironment = { baseUrl: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.56.0/min/' };
+                importScripts('https://cdn.jsdelivr.net/npm/monaco-editor@0.56.0/min/vs/language/typescript/ts.worker.js');
+              `)}`
             }
-            const EditorWorker = (
-              await import('monaco-editor/esm/vs/editor/editor.worker?worker')
-            ).default
-            return new EditorWorker()
+            return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
+              self.MonacoEnvironment = { baseUrl: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.56.0/min/' };
+              importScripts('https://cdn.jsdelivr.net/npm/monaco-editor@0.56.0/min/vs/editor/editor.worker.js');
+            `)}`
           }
         }
       }
