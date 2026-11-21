@@ -1,4 +1,4 @@
-import { setupMonaco } from '~/monaco/setup'
+import { getMonacoTypeScript, setupMonaco } from '~/monaco/setup'
 
 export function useChallengeTester() {
   const results = ref<{
@@ -12,7 +12,6 @@ export function useChallengeTester() {
   async function testChallenge(userCode: string, testCases: string) {
     const { monaco } = await setupMonaco()
 
-    // Create a temporary model that combines code + tests
     const hasImport = testCases.includes('@type-challenges/utils')
     const importStatement = hasImport ? '' : 'import { Equal, Expect } from \'@type-challenges/utils\'\n\n'
     const combinedCode = `${importStatement}${userCode}\n\n// --- Test Cases ---\n${testCases}`
@@ -26,13 +25,10 @@ export function useChallengeTester() {
       testModel = monaco.editor.createModel(combinedCode, 'typescript', testUri)
     }
 
-    // Definitive way to get diagnostics from the TS Worker
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const ts = monaco.languages.typescript as any
+    const ts = getMonacoTypeScript(monaco)
     const getWorker = await ts.getTypeScriptWorker()
     const worker = await getWorker(testUri)
 
-    // Get both syntax and semantic errors (Expect/Equal failures)
     const [syntactic, semantic] = await Promise.all([
       worker.getSyntacticDiagnostics(testUri.toString()),
       worker.getSemanticDiagnostics(testUri.toString())
@@ -50,7 +46,6 @@ export function useChallengeTester() {
       return `Line ${pos.lineNumber}: ${message}`
     })
 
-    // --- FIX: Immediately dispose the model to prevent "Duplicate Identifier" errors in the main editor ---
     testModel.dispose()
 
     results.value = {

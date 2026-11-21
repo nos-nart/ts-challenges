@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Splitpanes, Pane } from 'splitpanes'
+import { setMonacoTsVersion } from '~/monaco/setup'
 import { useChallengeStore } from '~/stores/challenge'
 import { useUiStore } from '~/stores/ui'
 import { useUserStore } from '~/stores/user'
@@ -104,7 +105,7 @@ onMounted(async () => {
   }
 })
 
-const handleVersionChange = (version: { value: string }) => {
+const handleVersionChange = async (version: { value: string }) => {
   ui.tsVersion = version.value
   const url = new URL(window.location.href)
   const defaultVersion = ui.supportedTsVersions?.[0]?.value
@@ -114,7 +115,8 @@ const handleVersionChange = (version: { value: string }) => {
   } else {
     url.searchParams.set('v', version.value)
   }
-  window.location.href = url.toString()
+  window.history.replaceState({}, '', url.toString())
+  await setMonacoTsVersion(version.value)
 }
 
 const toggleColorMode = () => {
@@ -290,7 +292,7 @@ const resultsHeightInit = computed(() =>
             :class="isDesktop ? 'w-40' : 'w-24'"
             searchable
             by="value"
-            :placeholder="isDesktop ? 'Select TS Version' : 'v5.7.3'"
+            :placeholder="isDesktop ? 'Select TS Version' : `v${defaultTsVersion}`"
             @update:model-value="handleVersionChange"
           >
             <template #leading>
