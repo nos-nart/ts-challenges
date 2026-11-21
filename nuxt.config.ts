@@ -129,7 +129,7 @@ export default defineNuxtConfig({
       ]
     },
     workbox: {
-      navigateFallback: '/',
+      navigateFallback: null,
       globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
       maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10MB
       skipWaiting: true,
@@ -141,7 +141,7 @@ export default defineNuxtConfig({
           options: {
             cacheName: 'cdn-cache',
             expiration: {
-              maxEntries: 10,
+              maxEntries: 20,
               maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
             },
             cacheableResponse: {
@@ -166,9 +166,8 @@ export default defineNuxtConfig({
       installPrompt: true
     },
     devOptions: {
-      enabled: true,
+      enabled: false,
       suppressWarnings: true,
-      navigateFallbackAllowlist: [/^\/$/],
       type: 'module'
     }
   }
