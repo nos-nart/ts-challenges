@@ -32,3 +32,9 @@ jobs:
 
       - name: Typecheck
         run: pnpm run typecheck
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Verify build invariants
+        run: pnpm run verify
