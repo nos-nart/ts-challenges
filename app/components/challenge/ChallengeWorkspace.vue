@@ -64,7 +64,7 @@ defineExpose({
       v-if="store.currentChallenge"
       class="absolute bottom-4 right-6 flex items-center gap-2 z-10"
     >
-      <UButton
+      <LazyUButton
         id="btn-prettify"
         icon="i-solar-stars-bold-duotone"
         label="Prettify"
@@ -74,7 +74,7 @@ defineExpose({
         class="font-bold shadow-sm backdrop-blur-sm bg-white/80 dark:bg-gray-900/80"
         @click="$emit('format')"
       />
-      <UButton
+      <LazyUButton
         id="btn-submit"
         label="Submit"
         color="primary"

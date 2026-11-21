@@ -49,7 +49,7 @@ defineProps<{
         v-else-if="results.passed && store.currentChallenge"
         class="p-4 flex items-center gap-2 text-green-600 dark:text-green-400 bg-green-50/50 dark:bg-green-950/10 border-b border-green-100 dark:border-green-900/20 shrink-0"
       >
-        <UIcon
+        <LazyUIcon
           name="i-solar-check-circle-bold-duotone"
           class="w-4 h-4"
         />

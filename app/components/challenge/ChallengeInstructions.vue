@@ -36,7 +36,7 @@ const store = useChallengeStore()
       >
         <template #readme>
           <div class="prose dark:prose-invert max-w-none prose-sm challenge-readme">
-            <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+            <LazyChallengeReadmeSkeleton v-if="store.detailsLoading" />
             <LazyMDC
               v-else
               :value="store.currentChallenge.readme || ''"
@@ -53,7 +53,7 @@ const store = useChallengeStore()
               />
               Helpful Hints
             </h3>
-            <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+            <LazyChallengeReadmeSkeleton v-if="store.detailsLoading" />
             <LazyMDC
               v-else
               :value="store.currentChallenge.hint || ''"
@@ -70,7 +70,7 @@ const store = useChallengeStore()
               />
               Reference Solution
             </h3>
-            <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+            <LazyChallengeReadmeSkeleton v-if="store.detailsLoading" />
             <LazyMDC
               v-else-if="store.currentChallenge.solution"
               :value="store.currentChallenge.solution"
@@ -90,7 +90,7 @@ const store = useChallengeStore()
 
         <template #learn>
           <div class="prose dark:prose-invert max-w-none prose-sm challenge-readme">
-            <ChallengeReadmeSkeleton v-if="store.detailsLoading" />
+            <LazyChallengeReadmeSkeleton v-if="store.detailsLoading" />
             <template v-else-if="store.activeConcepts.length">
               <div
                 v-for="(concept, index) in store.activeConcepts"
@@ -125,7 +125,7 @@ const store = useChallengeStore()
                 class="w-10 h-10 mb-2"
               />
               <p>No specific concept notes for this challenge yet.</p>
-              <UButton
+              <LazyUButton
                 to="https://www.typescriptlang.org/docs/handbook/intro.html"
                 variant="link"
                 label="Browse TS Handbook"
